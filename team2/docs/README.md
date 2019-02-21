@@ -1,1 +1,2 @@
-DApp 기획안 & 설계문서
+When will we complete it?
+
