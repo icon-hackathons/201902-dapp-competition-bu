@@ -1,0 +1,730 @@
+[ERROR|logger.py:360] 2019-02-25 04:38:32,730 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:35,920 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:36,784 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:37,415 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:37,903 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:38,313 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:38,953 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:39,534 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:40,073 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:40,589 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:41,077 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:41,520 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:41,942 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:42,407 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:42,814 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:38:43,290 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:17,709 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:18,193 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:18,325 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:18,416 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:18,512 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:18,609 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:18,703 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:18,802 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:18,883 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:18,976 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:19,079 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:19,189 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:19,264 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:19,378 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:19,456 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:19,551 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:19,633 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:19,729 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:19,812 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 04:39:19,905 > [IconService] inquiry_RT() missing 1 required positional argument: '_Call_div'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 136, in _call
+    return external_func(func_name=func_name, arg_params=[], kw_params=converted_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 397, in __external_call
+    ret = score_func(*arg_params, **kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_base.py", line 245, in __wrapper
+    res = func(calling_obj, *args, **kwargs)
+TypeError: inquiry_RT() missing 1 required positional argument: '_Call_div'
+[ERROR|logger.py:360] 2019-02-25 05:29:24,382 > [IconService] invalid literal for int() with base 10: '22%(M-5)'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 134, in _call
+    converted_params = self._convert_score_params_by_annotations(icon_score, func_name, kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 146, in _convert_score_params_by_annotations
+    TypeConverter.convert_data_params(annotation_params, tmp_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/base/type_converter.py", line 241, in convert_data_params
+    kw_param = TypeConverter._convert_data_value(param, kw_param)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/base/type_converter.py", line 247, in _convert_data_value
+    param = TypeConverter._convert_value_int(param)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/base/type_converter.py", line 159, in _convert_value_int
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22%(M-5)'
+[ERROR|logger.py:360] 2019-02-25 05:29:32,048 > [IconService] invalid literal for int() with base 10: '22%(M-5)'
+Traceback (most recent call last):
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_inner_service.py", line 140, in _query
+    params=converted_request['params'])
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 471, in query
+    ret = self._call(context, method, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 539, in _call
+    ret_val = handler(context, params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/icon_service_engine.py", line 583, in _handle_icx_call
+    data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 97, in query
+    return self._call(context, icon_score_address, data)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 134, in _call
+    converted_params = self._convert_score_params_by_annotations(icon_score, func_name, kw_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/iconscore/icon_score_engine.py", line 146, in _convert_score_params_by_annotations
+    TypeConverter.convert_data_params(annotation_params, tmp_params)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/base/type_converter.py", line 241, in convert_data_params
+    kw_param = TypeConverter._convert_data_value(param, kw_param)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/base/type_converter.py", line 247, in _convert_data_value
+    param = TypeConverter._convert_value_int(param)
+  File "/home/lyu/PycharmProjects/Without_Doubt_Project/venv/lib/python3.6/site-packages/iconservice/base/type_converter.py", line 159, in _convert_value_int
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22%(M-5)'

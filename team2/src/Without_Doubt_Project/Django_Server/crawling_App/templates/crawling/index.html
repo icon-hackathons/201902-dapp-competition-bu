@@ -1,0 +1,173 @@
+<!DOCTYPE <html>
+<html lang="en">
+{% load staticfiles %}
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Real-Time Search</title>
+
+ <!-- Bootstrap core CSS -->
+  <link href='{% static "vendor/bootstrap/css/bootstrap.min.css" %}' rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href='{% static "vendor/fontawesome-free/css/all.min.css" %}' rel="stylesheet" type="text/css">
+  <link href= "https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href= "https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type="text/css">
+  <link href= "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel='stylesheet' type='text/css'>
+  <link href= "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href='{% static "css/agency.min.css" %}' rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Searcg history</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#services">소 개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">Naver 실검기록</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Google 실검기록</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#team">여기가 새로 추가 될 내용</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">ICON LOOP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To Real Time Search!</div>
+                <div class="intro-heading text-uppercase">실시간 검색</div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Search Start!</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">소 개</h2>
+                    <h3 class="section-subheading">블록체인을 이용한 실시간 검색을 이용한 서비스를 제공합니다.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-cloud-upload-alt fa-stack-1x fa-inverse"></i>
+          </span>
+                    <h4 class="service-heading">지속적 실시간 기록</h4>
+                    <p class="text-muted">지속적인 크롤링으로 일정 주기마다 데이터를 기록합니다.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+          </span>
+                    <h4 class="service-heading">데이터 유지</h4>
+                    <p class="text-muted">블록체인에 데이터를 기록합으로서 데이터의 영구 보관성을 보여줍니다.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-search fa-stack-1x fa-inverse"></i>
+          </span>
+                    <h4 class="service-heading">기록 정보 확인</h4>
+                    <p class="text-muted">원하는 시간때에 실시간 검색 기록들을 볼 수 있습니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- About[naver Real-Time] -->
+    <section id="about" style="padding-top: 30px">
+
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">NAVER 실검기록</h2>
+        </div>
+        <div class="container" style="padding-top: 10px">
+            <div class="row">
+                <iframe src="realtime.html" width="550" height="610" frameborder= "0" >
+        </iframe>
+                <iframe src="realtime_Top20.html" width="550" height="auto" frameborder= "0" >
+        </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid[google Real-Time] -->
+    <section id="portfolio" style="padding-top: 30px">
+	
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">GOOGLE 실검기록</h2>
+        </div>
+        <div class="container" style="padding-top: 10px">
+            <div class="row">
+                <iframe src="realtime_google.html" width="550" height="610" frameborder= "0" >
+        </iframe>
+                <iframe src="realtime_Top20_google.html" width="550" height="auto" frameborder= "0" >
+        </iframe>
+            </div>
+        </div>
+    </section>
+
+ <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="https://www.iconloop.com/" target="_blank" style ="#FFFFFF"><h1 class="section-heading text-uppercase" >ICON LOOP </h1></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src='{% static "vendor/jquery/jquery.min.js" %}'></script>
+  <script src='{% static "vendor/bootstrap/js/bootstrap.bundle.min.js" %}'></script>
+
+  <!-- Plugin JavaScript -->
+  <script src='{% static "vendor/jquery-easing/jquery.easing.min.js" %}'></script>
+
+  <!-- Contact form JavaScript -->
+  <script src='{% static "js/jqBootstrapValidation.js" %}'></script>
+  <script src='{% static "js/contact_me.js" %}'></script>
+
+  <!-- Custom scripts for this template -->
+  <script src='{% static "js/agency.min.js" %}'></script>
+
+</body>
+
+</html>

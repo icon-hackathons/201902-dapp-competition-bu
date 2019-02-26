@@ -1,0 +1,143 @@
+ <!DOCTYPE html>
+<html lang="en" ng-app="ExampleApp">
+{% load staticfiles %}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>real time_google</title>
+
+     <!-- Bootstrap core CSS -->
+  <link href='{% static "vendor/bootstrap/css/bootstrap.min.css" %}' rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href='{% static "vendor/fontawesome-free/css/all.min.css" %}' rel="stylesheet" type="text/css">
+  <link href= "https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href= "https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type="text/css">
+  <link href= "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel='stylesheet' type='text/css'>
+  <link href= "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href='{% static "css/agency.min.css" %}' rel="stylesheet">
+
+    <!-- 스크립트 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"></script>
+    <script src='{% static "rawgit/scroll-events.min.js" %}'></script>
+    <script src='{% static "rawgit/datetime-inputs.min.js" %}'></script>
+
+    <script src='{% static "rawgit/datetime-range.min.js" %}'></script>
+    <script src='{% static "rawgit/moment.min.js" %}>'</script>
+    <script src='{% static "rawgit/scroll-events.min.js" %}'></script>
+    <script src='{% static "rawgit/datetime-inputs.min.js" %}'></script>
+
+    <link rel="stylesheet" href='{% static "rawgit/datetime-range.min.css" %}'>
+    <link rel="stylesheet" href='{% static "rawgit/datetime-inputs.min.css" %}'>
+
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+</head>
+
+<!-- About -->
+
+<body ng-controller="MainCtrl">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">NAVER Today TOP20</h2>
+                
+                <form id="frm" action="" method="get">
+                    <div>
+                        <div class="form-group">
+                           <fieldset>
+			<input class="btn btn-primary" type="date" name="userdate" value="2018-12-31">
+                            <input class="btn btn-primary" type="submit" value="검색"></div>
+                           </fieldset>
+
+                        <ol class= "rolldown-list" >
+	 {% for post in posts %}
+     <li style="text-align:left">{{post.N_Word}}</li>
+	 {% endfor %}
+
+                        </ol>
+
+
+                    
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+      <!-- Bootstrap core JavaScript -->
+  <script src='{% static "vendor/jquery/jquery.min.js" %}'></script>
+  <script src='{% static "vendor/bootstrap/js/bootstrap.bundle.min.js" %}'></script>
+
+  <!-- Plugin JavaScript -->
+  <script src='{% static "vendor/jquery-easing/jquery.easing.min.js" %}'></script>
+
+  <!-- Contact form JavaScript -->
+  <script src='{% static "js/jqBootstrapValidation.js" %}'></script>
+  <script src='{% static "js/contact_me.js" %}'></script>
+
+  <!-- Custom scripts for this template -->
+  <script src='{% static "js/agency.min.js" %}'></script>
+   
+    <script>
+        angular.module('ExampleApp', ['g1b.scroll-events', 'g1b.datetime-inputs', 'g1b.datetime-range']).
+        controller('MainCtrl', function($scope) {
+
+            // Datetime inputs initial variable
+            $scope.now = moment();
+
+            // Datetime range start/end vars
+            $scope.start = moment();
+            $scope.end = moment().add(1, 'days').add(1, 'hours');
+
+            // Datetime range presets
+            $scope.presets = [{
+                'name': 'This Week',
+                'start': moment().startOf('week').startOf('day'),
+                'end': moment().endOf('week').endOf('day'),
+            }, {
+                'name': 'This Month',
+                'start': moment().startOf('month').startOf('day'),
+                'end': moment().endOf('month').endOf('day'),
+            }, {
+                'name': 'This Year',
+                'start': moment().startOf('year').startOf('day'),
+                'end': moment().endOf('year').endOf('day'),
+            }];
+
+            // Datetime input on change callback
+            $scope.print = function(datetime) {
+                console.log('datetime', datetime);
+            };
+
+            // Datetime range on change callback
+            $scope.changed = function() {
+                console.log('changed start or end datetime objects');
+            };
+
+            // Datetime
+            $scope.changedStart = function() {
+                console.log('changed start datetime object');
+            };
+            $scope.changedEnd = function() {
+                console.log('changed end datetime object');
+            };
+            $scope.closed = function() {
+                console.log('edit popover closed');
+            };
+        });
+    </script>
+
+</body>
+
+</html>
