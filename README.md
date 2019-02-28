@@ -2,7 +2,7 @@
 # ICON DApp Development Competition <br>
 
 ## About the competition <br>
-ICON, in partnership with the Baekseok University (BU), is pleased to announce theICON DApp Development for student competition. The program challenges studentsto submit their projects that create DApp using score.
+ICON, in partnership with the Baekseok University (BU), is pleased to announce theICON DApp Development for student competition. The program challenges students to submit their projects that create DApp using score.
 <br>
 
 ## Competition Period <br>
@@ -14,7 +14,7 @@ ICONLOOP <br>
 Jung-gu Seoul Korea
 
 ## Eligibility <br>
-The competition is open to upper level students (mostly fourth year) from BaekseokUniversity in Korea. Submissions will be accepted for team projects and teams mustbe limited to a maximum of four students.
+The competition is open to upper level students (mostly fourth year) from BaekseokUniversity in Korea. Submissions will be accepted for team projects and teams must be limited to a maximum of four students.
 
 ## Schedule <br>
 ● Orientation <br>
