@@ -1,0 +1,458 @@
+  File "/home/ubuntu/crawling/Without_Doubt_Project/Total_Crawler/Total_Crawler.py", line 134
+    driver.quit()
+                ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/home/ubuntu/crawling/Without_Doubt_Project/Total_Crawler/Total_Crawler.py", line 134
+    driver.quit()
+                ^
+TabError: inconsistent use of tabs and spaces in indentation
+['안재모', '구자욱', '아메바컬쳐', '황유진', '전현무 한혜진 결별']
+['Ashland', 'Vijay Shankar', 'Kanawha County, West Virginia', 'Antonio Brown', 'Jefferson County Public Schools']
+['안재모', '구자욱', '아메바컬쳐', '황유진', '전현무 한혜진 결별']
+['Ashland', 'Vijay Shankar', 'Kanawha County, West Virginia', 'Antonio Brown', 'Jefferson County Public Schools']
+['안재모', '아메바컬쳐', '구자욱', '예은', '황유진']
+['Ashland', 'Vijay Shankar', 'Kanawha County, West Virginia', 'Antonio Brown', "International Women's Day"]
+['안재모', '아메바컬쳐', '구자욱', '예은', '황유진']
+['Ashland', 'Vijay Shankar', 'Kanawha County, West Virginia', 'Antonio Brown', 'Jefferson County Public Schools']
+['안재모', '아메바컬쳐', '구자욱', '예은', '황유진']
+['Ashland', 'Kanawha County, West Virginia', 'Antonio Brown', 'Earthquake', 'Jefferson County Public Schools']
+['안재모', '아메바컬쳐', '구자욱', '황유진', '예은']
+['Kanawha County, West Virginia', 'Antonio Brown', 'Essay', 'Earthquake', 'Jefferson County Public Schools']
+['안재모', '아메바컬쳐', '황유진', '전현무 한혜진 결별', '구자욱']
+['Antonio Brown', 'Kanawha County, West Virginia', 'Essay', "International Women's Day", 'Earthquake']
+['안재모', '아메바컬쳐', '황유진', '전현무 한혜진 결별', '구자욱']
+['Kanawha County, West Virginia', 'Antonio Brown', 'Ashland', 'Earthquake', 'Jefferson County Public Schools']
+['황유진', '전현무 한혜진 결별', '아메바컬쳐', '안재모', '구자욱']
+['Antonio Brown', 'Ashland', 'Earthquake', 'Kanawha County, West Virginia', 'Vijay Shankar']
+['황유진', '전현무 한혜진 결별', '아메바컬쳐', '기안84', '예은']
+['Antonio Brown', 'Ashland', 'Earthquake', 'Kanawha County, West Virginia', 'Spain']
+['황유진', '전현무 한혜진 결별', '아메바컬쳐', '기안84', '예은']
+['Antonio Brown', 'Ashland', 'Earthquake', 'Kanawha County, West Virginia', 'Spain']
+['황유진', '전현무 한혜진 결별', '아메바컬쳐', '뷰라벨 폼클렌징', '기안84']
+['Antonio Brown', 'Ashland', 'Earthquake', 'Kanawha County, West Virginia', 'Vijay Shankar']
+['전현무 한혜진 결별', '뷰라벨 폼클렌징', '새싹보리분말', '기안84', '아메바컬쳐']
+['Antonio Brown', 'Earthquake', 'Kanawha County, West Virginia', 'Vijay Shankar', 'Spain']
+['전현무 한혜진 결별', '새싹보리분말', '테이', '뷰라벨 폼클렌징', '기안84']
+['Ashland', 'Antonio Brown', 'Kanawha County, West Virginia', "International Women's Day", 'Spain']
+['테이', '전현무 한혜진 결별', '새싹보리분말', '뷰라벨 폼클렌징', '기안84']
+['Essay', 'Antonio Brown', 'Kanawha County, West Virginia', "International Women's Day", 'Spain']
+['테이', '새싹보리분말', '전현무 한혜진 결별', '뷰라벨 폼클렌징', '기안84']
+['Essay', 'Antonio Brown', 'Kanawha County, West Virginia', "International Women's Day", 'Earthquake']
+['테이', '새싹보리분말', '전현무 한혜진 결별', '뷰라벨 폼클렌징', '기안84']
+['Kanawha County, West Virginia', 'Antonio Brown', "International Women's Day", 'Earthquake', 'SpaceX']
+['테이', '새싹보리분말', '뷰라벨 폼클렌징', '전현무 한혜진 결별', '구자욱']
+['Antonio Brown', "International Women's Day", 'Earthquake', 'SpaceX', 'Strike action']
+['테이', '새싹보리분말', '뷰라벨 폼클렌징', '전현무 한혜진 결별', '구자욱']
+['Antonio Brown', "International Women's Day", 'SpaceX', 'Earthquake', "International Women's Day"]
+['테이', '새싹보리분말', '뷰라벨 폼클렌징', '전현무 한혜진 결별', '구자욱']
+["International Women's Day", 'Antonio Brown', 'SpaceX', 'Earthquake', 'Ashland']
+['테이', '새싹보리분말', '뷰라벨 폼클렌징', '홍가혜', '전현무 한혜진 결별']
+['Strike action', 'Antonio Brown', 'SpaceX', 'Spain', "International Women's Day"]
+['테이', '새싹보리분말', '홍가혜', '전현무 한혜진 결별', '뷰라벨 폼클렌징']
+['SpaceX', 'Spain', 'Antonio Brown', 'Earthquake', 'Sound Bar']
+['홍가혜', '테이', '새싹보리분말', '전현무 한혜진 결별', '구자욱']
+['SpaceX', 'Antonio Brown', "International Women's Day", 'Earthquake', 'Ashland']
+['홍가혜', '테이', '전현무 한혜진 결별', '새싹보리분말', '구자욱']
+['SpaceX', 'Spain', "International Women's Day", 'Antonio Brown', 'Sound Bar']
+['홍가혜', '테이', '전현무 한혜진 결별', '구자욱', '터미네이터2']
+['SpaceX', "International Women's Day", 'Antonio Brown', 'Kanawha County, West Virginia', 'Social News XYZ']
+['홍가혜', '세월호 홍가혜', '전현무 한혜진 결별', '테이', '미옥']
+['SpaceX', "International Women's Day", 'Antonio Brown', 'Kanawha County, West Virginia', 'Social News XYZ']
+['홍가혜', '세월호 홍가혜', '전현무 한혜진 결별', '미옥', '닥터 스트레인지']
+[]
+Traceback (most recent call last):
+  File "/home/ubuntu/crawling/Without_Doubt_Project/Total_Crawler/Total_Crawler.py", line 34, in <module>
+    class calltransaction_transaction_RT():
+  File "/home/ubuntu/crawling/Without_Doubt_Project/Total_Crawler/Total_Crawler.py", line 194, in calltransaction_transaction_RT
+    check = Machined_Google_title_list[0]
+IndexError: list index out of range
+['홍가혜', '세월호 홍가혜', '미옥', '전현무 한혜진 결별', '닥터 스트레인지']
+['SpaceX', "International Women's Day", 'Social News XYZ', 'Empowerment', 'Sound Bar']
+['홍가혜', '미옥', '세월호 홍가혜', '전현무 한혜진 결별', '닥터 스트레인지']
+['SpaceX', "International Women's Day", 'Empowerment', 'Sound Bar', "International Women's Day"]
+['홍가혜', '미옥', '세월호 홍가혜', '전현무 한혜진 결별', '추적60분']
+['SpaceX', "International Women's Day", "International Women's Day", 'Olivia Newton-John', 'Ashland']
+['홍가혜', '미옥', '전현무 한혜진 결별', '세월호 홍가혜', '추적60분']
+['SpaceX', "International Women's Day", 'Olivia Newton-John', 'Ashland', 'Colorado']
+['홍가혜', '미옥', '전현무 한혜진 결별', '추적60분', '세월호 홍가혜']
+['SpaceX', "International Women's Day", 'Olivia Newton-John', 'Ashland', 'Colorado']
+['홍가혜', '미옥', '전현무 한혜진 결별', '추적60분', '세월호 홍가혜']
+['SpaceX', "International Women's Day", 'Olivia Newton-John', 'Colorado', 'Instagram']
+['홍가혜', '미옥', '전현무 한혜진 결별', '추적60분', '세월호 홍가혜']
+['SpaceX', "International Women's Day", 'Olivia Newton-John', 'Colorado', 'Instagram']
+['홍가혜', '전현무 한혜진 결별', '미옥', '추적60분', '1인 방송']
+['SpaceX', "International Women's Day", 'Olivia Newton-John', 'Dak Prescott', 'Colorado']
+['홍가혜', '전현무 한혜진 결별', '미옥', '1인 방송', '추적60분']
+['SpaceX', "International Women's Day", 'Olivia Newton-John', 'Dak Prescott', 'Colorado']
+['전현무 한혜진 결별', '홍가혜', '1인 방송', '추적60분', '미옥']
+['SpaceX', "International Women's Day", 'Olivia Newton-John', 'Dak Prescott', 'Instagram']
+['윤균상', '전현무 한혜진 결별', '1인 방송', '추적60분', '정지웅']
+['SpaceX', 'Dak Prescott', 'Colorado', "International Women's Day", 'Empowerment']
+['윤균상', '전현무 한혜진 결별', '1인 방송', '추적60분', '정지웅']
+['SpaceX', 'Dak Prescott', 'Colorado', "International Women's Day", 'Maren Morris']
+['윤균상', '전현무 한혜진 결별', '1인 방송', '추적60분', '정지웅']
+['SpaceX', 'Dak Prescott', "International Women's Day", 'Colorado', 'Democratic Party']
+['윤균상', '전현무 한혜진 결별', '1인 방송', '정지웅', '추적60분']
+['SpaceX', "International Women's Day", 'Dak Prescott', 'Colorado', 'Democratic Party']
+['윤균상', '전현무 한혜진 결별', '1인 방송', '정지웅', '정은표']
+['SpaceX', "International Women's Day", 'Dak Prescott', 'Colorado', 'Mike Caputo']
+['윤균상', '전현무 한혜진 결별', '1인 방송', '정지웅', '정은표']
+['SpaceX', 'Dak Prescott', 'Mike Caputo', 'Colorado', 'Spain']
+['윤균상', '전현무 한혜진 결별', '1인 방송', '정지웅', '심희섭']
+["International Women's Day", 'Dak Prescott', 'SpaceX', 'Mike Caputo', 'Spain']
+['윤균상', '심희섭', '전현무 한혜진 결별', '정지웅', '맛다시']
+["International Women's Day", 'Dak Prescott', 'SpaceX', 'Colorado', 'Spain']
+['윤균상', '심희섭', '전현무 한혜진 결별', '정지웅', '맛다시']
+["International Women's Day", 'SpaceX', "International Women's Day", 'Maren Morris', 'Unemployment']
+['윤균상', '심희섭', '전현무 한혜진 결별', '역적', '맛다시']
+["International Women's Day", 'SpaceX', "International Women's Day", 'Unemployment', 'Masayoshi Son']
+['윤균상', '심희섭', '전현무 한혜진 결별', '맛다시', '마라소스']
+['Instagram', "International Women's Day", 'Masayoshi Son', 'OTCMKTS:SFTBF', 'SpaceX']
+['윤균상', '심희섭', '맛다시', '전현무 한혜진 결별', '마라소스']
+['Masayoshi Son', 'OTCMKTS:SFTBF', 'SpaceX', "International Women's Day", 'Colorado']
+['윤균상', '심희섭', '맛다시', '마라소스', '역적']
+['Masayoshi Son', 'OTCMKTS:SFTBF', 'SpaceX', "International Women's Day", 'Colorado']
+['윤균상', '심희섭', '맛다시', '마라소스', '역적']
+['OTCMKTS:SFTBF', 'SpaceX', 'Masayoshi Son', "International Women's Day", 'Colorado']
+['윤균상', '심희섭', '맛다시', '마라소스', '역적']
+['OTCMKTS:SFTBF', 'SpaceX', 'Masayoshi Son', "International Women's Day", 'Colorado']
+['윤균상', '심희섭', '맛다시', '마라소스', '역적']
+['OTCMKTS:SFTBF', 'SpaceX', 'Masayoshi Son', "International Women's Day", 'Colorado']
+['윤균상', '심희섭', '맛다시', '마라소스', '역적']
+['OTCMKTS:SFTBF', 'Earthquake', 'Masayoshi Son', 'SpaceX', "International Women's Day"]
+['윤균상', '심희섭', '맛다시', '마라소스', '역적']
+['OTCMKTS:SFTBF', 'Earthquake', 'La Croix Sparkling Water', "International Women's Day", 'Loyola University Chicago']
+['윤균상', '맛다시', '심희섭', '마라소스', '역적']
+['OTCMKTS:SFTBF', "International Women's Day", 'La Croix Sparkling Water', 'Loyola University Chicago', 'Dak Prescott']
+['윤균상', '마라소스', '맛다시', '역적', '전현무 한혜진 결별']
+["International Women's Day", 'Loyola University Chicago', 'La Croix Sparkling Water', 'Dak Prescott', 'Jan-Michael Vincent']
+['윤균상', '마라소스', '맛다시', '나를 미치게 하는 여자', '이욱']
+['Jan-Michael Vincent', "International Women's Day", 'Chelsea Manning', 'Loyola University Chicago', 'SoftBank Group']
+['윤균상', '마라소스', '맛다시', '나를 미치게 하는 여자', '이욱']
+["Valparaiso Crusaders men's basketball", 'Jan-Michael Vincent', 'Jan-Michael Vincent', 'Chelsea Manning', "International Women's Day"]
+['윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '맛다시', '이욱']
+['Cleveland Browns', "Valparaiso Crusaders men's basketball", 'Jan-Michael Vincent', 'Jan-Michael Vincent', 'Chelsea Manning']
+['윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '악의연대기', '정지웅']
+['Cleveland Browns', 'Jan-Michael Vincent', "Valparaiso Crusaders men's basketball", 'Jan-Michael Vincent', 'Chelsea Manning']
+['윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '정지웅', '악의연대기']
+['Cleveland Browns', 'Jan-Michael Vincent', 'Chelsea Manning', 'Instagram', "Valparaiso Crusaders men's basketball"]
+['윤균상', '나를 미치게 하는 여자', '크릴오일', '전현무 한혜진 결별', '정지웅']
+['Cleveland Browns', 'Jan-Michael Vincent', 'Chelsea Manning', "Valparaiso Crusaders men's basketball", 'Jan-Michael Vincent']
+['나를 미치게 하는 여자', '윤균상', '크릴오일', '전현무 한혜진 결별', '정지웅']
+['Kevin Zeitler', "United States women's national soccer team", 'Jan-Michael Vincent', 'Chelsea Manning', 'Bill Shine']
+['나를 미치게 하는 여자', '크릴오일', '윤균상', '전현무 한혜진 결별', '악의연대기']
+['Cleveland Browns', 'Jan-Michael Vincent', "United States women's national soccer team", 'Chelsea Manning', 'Bill Shine']
+['크릴오일', '나를 미치게 하는 여자', '윤균상', '전현무 한혜진 결별', '악의연대기']
+['Cleveland Browns', 'Jan-Michael Vincent', 'Chelsea Manning', 'Jan-Michael Vincent', 'Bill Shine']
+['크릴오일', '윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '악의연대기']
+['New York Giants', 'Kevin Zeitler', 'Jan-Michael Vincent', 'Chelsea Manning', 'La Croix Sparkling Water']
+['크릴오일', '윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '악의연대기']
+['Cleveland Browns', 'Jan-Michael Vincent', 'Chelsea Manning', 'Bill Shine', 'Jan-Michael Vincent']
+['크릴오일', '나를 미치게 하는 여자', '윤균상', '전현무 한혜진 결별', '악의연대기']
+['Cleveland Browns', 'Jan-Michael Vincent', 'Chelsea Manning', 'Bill Shine', 'Jan-Michael Vincent']
+['윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '크릴오일', '악의연대기']
+['Jan-Michael Vincent', 'New York Giants', 'Chelsea Manning', 'Kevin Zeitler', 'Bill Shine']
+['윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '크릴오일', '나를 찾아줘']
+['Cleveland Browns', 'Jan-Michael Vincent', 'Chelsea Manning', 'Bill Shine', "Valparaiso Crusaders men's basketball"]
+['윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '나를 찾아줘', '악의연대기']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Chelsea Manning', 'Bill Shine']
+['윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '나를 찾아줘', '도끼']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Chelsea Manning', 'Bill Shine']
+['윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '나를 찾아줘', '베일리 어게인']
+['Jan-Michael Vincent', "International Women's Day", 'Kevin Zeitler', 'Chelsea Manning', 'Bill Shine']
+['윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '나를 찾아줘', '베일리 어게인']
+['Jan-Michael Vincent', "International Women's Day", 'Kevin Zeitler', 'New York Giants', 'Bill Shine']
+['윤균상', '나를 미치게 하는 여자', '전현무 한혜진 결별', '나를 찾아줘', '베일리 어게인']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Chelsea Manning', 'Bill Shine']
+['윤균상', '나를 미치게 하는 여자', '나를 찾아줘', '전현무 한혜진 결별', '베일리 어게인']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Chelsea Manning', 'Bill Shine']
+['윤균상', '전현무 한혜진 결별', '나를 미치게 하는 여자', '나를 찾아줘', '베일리 어게인']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Chelsea Manning', 'Bill Shine']
+['윤균상', '전현무 한혜진 결별', '나를 미치게 하는 여자', '나를 찾아줘', '베일리 어게인']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Bill Shine', 'Chelsea Manning']
+['윤균상', '전현무 한혜진 결별', '나를 찾아줘', '나를 미치게 하는 여자', '베일리 어게인']
+['Jan-Michael Vincent', "International Women's Day", 'New York Giants', 'Kevin Zeitler', 'Bill Shine']
+['윤균상', '전현무 한혜진 결별', '나를 찾아줘', '베일리 어게인', '도도맘']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Bill Shine', 'Loyola University Chicago']
+['윤균상', '전현무 한혜진 결별', '나를 찾아줘', '베일리 어게인', '도도맘']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Bill Shine', "Valparaiso Crusaders men's basketball"]
+['윤균상', '전현무 한혜진 결별', '나를 찾아줘', '베일리 어게인', '도도맘']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Bill Shine', "Valparaiso Crusaders men's basketball"]
+['윤균상', '전현무 한혜진 결별', '나를 찾아줘', '베일리 어게인', '도도맘']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Donald Trump', "Valparaiso Crusaders men's basketball"]
+['윤균상', '전현무 한혜진 결별', '나를 찾아줘', '악마는 프라다를 입는다', '어쩌다 결혼']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Donald Trump', "Valparaiso Crusaders men's basketball"]
+['윤균상', '전현무 한혜진 결별', '나를 찾아줘', '악마는 프라다를 입는다', '어쩌다 결혼']
+['Cleveland Browns', 'Jan-Michael Vincent', "International Women's Day", 'Donald Trump', 'Loyola University Chicago']
+['윤균상', '전현무 한혜진 결별', '악마는 프라다를 입는다', '나를 찾아줘', '어쩌다 결혼']
+['Jan-Michael Vincent', "International Women's Day", 'Cleveland Browns', 'Loyola University Chicago', 'Donald Trump']
+['윤균상', '전현무 한혜진 결별', '악마는 프라다를 입는다', '어쩌다 결혼', '나를 찾아줘']
+['Jan-Michael Vincent', "International Women's Day", 'Cleveland Browns', 'Loyola University Chicago', 'Donald Trump']
+['윤균상', '전현무 한혜진 결별', '악마는 프라다를 입는다', '어쩌다 결혼', '나를 찾아줘']
+['Jan-Michael Vincent', "International Women's Day", 'Kevin Zeitler', "Valparaiso Crusaders men's basketball", 'New York Giants']
+['윤균상', '전현무 한혜진 결별', '악마는 프라다를 입는다', '어쩌다 결혼', '나를 찾아줘']
+['Jan-Michael Vincent', "International Women's Day", 'Cleveland Browns', 'Loyola University Chicago', 'Donald Trump']
+['윤균상', '전현무 한혜진 결별', '악마는 프라다를 입는다', '어쩌다 결혼', '나를 찾아줘']
+['Jan-Michael Vincent', "International Women's Day", 'Cleveland Browns', 'Loyola University Chicago', 'Donald Trump']
+['윤균상', '전현무 한혜진 결별', '악마는 프라다를 입는다', '나를 찾아줘', '어쩌다 결혼']
+['Jan-Michael Vincent', "International Women's Day", 'Cleveland Browns', 'Loyola University Chicago', 'Donald Trump']
+['윤균상', '전현무 한혜진 결별', '악마는 프라다를 입는다', '유벤투스', '어쩌다 결혼']
+['Jan-Michael Vincent', 'Cleveland Browns', "Valparaiso Crusaders men's basketball", "International Women's Day", "Indiana State Sycamores men's basketball"]
+['윤균상', '전현무 한혜진 결별', '악마는 프라다를 입는다', '유벤투스', '택시 할증시간']
+['Jan-Michael Vincent', 'Cleveland Browns', "Valparaiso Crusaders men's basketball", "International Women's Day", "Indiana State Sycamores men's basketball"]
+['윤균상', '전현무 한혜진 결별', '악마는 프라다를 입는다', '유벤투스', '택시 할증시간']
+['Jan-Michael Vincent', "Valparaiso Crusaders men's basketball", 'Cleveland Browns', "International Women's Day", "Indiana State Sycamores men's basketball"]
+['윤균상', '전현무 한혜진 결별', '유벤투스', '악마는 프라다를 입는다', '나를 찾아줘']
+['Jan-Michael Vincent', "Valparaiso Crusaders men's basketball", "International Women's Day", "Indiana State Sycamores men's basketball", 'Donald Trump']
+['윤균상', '전현무 한혜진 결별', '유벤투스', '악마는 프라다를 입는다', '나를 찾아줘']
+['Jan-Michael Vincent', "Valparaiso Crusaders men's basketball", 'Cleveland Browns', "International Women's Day", 'Donald Trump']
+['윤균상', '악마는 프라다를 입는다', '유벤투스', '전현무 한혜진 결별', '나를 찾아줘']
+['Jan-Michael Vincent', 'Loyola University Chicago', 'Cleveland Browns', "International Women's Day", 'Donald Trump']
+['윤균상', '유벤투스', '악마는 프라다를 입는다', '전현무 한혜진 결별', '나를 찾아줘']
+['Jan-Michael Vincent', "Valparaiso Crusaders men's basketball", 'Cleveland Browns', "Indiana State Sycamores men's basketball", 'Donald Trump']
+['윤균상', '유벤투스', '악마는 프라다를 입는다', '전현무 한혜진 결별', '나를 찾아줘']
+['Jan-Michael Vincent', "Valparaiso Crusaders men's basketball", 'Cleveland Browns', "Indiana State Sycamores men's basketball", 'Will Wade']
+['윤균상', '유벤투스', '악마는 프라다를 입는다', '전현무 한혜진 결별', '나를 찾아줘']
+['Jan-Michael Vincent', "Valparaiso Crusaders men's basketball", "International Women's Day", 'Cleveland Browns', 'Will Wade']
+['윤균상', '유벤투스', '악마는 프라다를 입는다', '나를 찾아줘', '전현무 한혜진 결별']
+['Jan-Michael Vincent', "Valparaiso Crusaders men's basketball", 'Cleveland Browns', "International Women's Day", 'Will Wade']
+['윤균상', '유벤투스', '악마는 프라다를 입는다', '전현무 한혜진 결별', '나를 찾아줘']
+['Jan-Michael Vincent', 'Loyola University Chicago', 'Cleveland Browns', "International Women's Day", 'Will Wade']
+['윤균상', '유벤투스', '악마는 프라다를 입는다', '전현무 한혜진 결별', '식스센스']
+['Jan-Michael Vincent', 'Loyola University Chicago', "International Women's Day", 'Will Wade', "Indiana State Sycamores men's basketball"]
+['윤균상', '유벤투스', '전현무 한혜진 결별', '식스센스', '악마는 프라다를 입는다']
+['Jan-Michael Vincent', 'Loyola University Chicago', "International Women's Day", "Indiana State Sycamores men's basketball", 'Louisiana State University']
+['윤균상', '유벤투스', '식스센스', '전현무 한혜진 결별', '나혼자산다']
+['Jan-Michael Vincent', "Valparaiso Crusaders men's basketball", "International Women's Day", 'Will Wade', "Indiana State Sycamores men's basketball"]
+['윤균상', '유벤투스', '식스센스', '나혼자산다', '전현무 한혜진 결별']
+['Jan-Michael Vincent', "Valparaiso Crusaders men's basketball", 'Will Wade', "International Women's Day", 'Cleveland Browns']
+['윤균상', '유벤투스', '식스센스', '나혼자산다', '롱키스굿나잇']
+['Jan-Michael Vincent', "Valparaiso Crusaders men's basketball", 'Will Wade', "International Women's Day", 'Philadelphia Eagles']
+['시서스', '티몬데이', '옥션 싱글데이', '전두환', '브루나이']
+['Bronxville', 'Phoenix Suns', 'San Antonio Spurs', 'WWE Fastlane', 'Aretha Franklin']
+['시서스', '티몬데이', '옥션 싱글데이', '전두환', '브루나이']
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.6/ssl.py", line 1012, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.6/ssl.py", line 874, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 693, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='ctz.solidwallet.io', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/crawling/Without_Doubt_Project/Total_Crawler/Total_Crawler.py", line 34, in <module>
+    class calltransaction_transaction_RT():
+  File "/home/ubuntu/crawling/Without_Doubt_Project/Total_Crawler/Total_Crawler.py", line 103, in calltransaction_transaction_RT
+    tx_hash = icon_service.send_transaction(signed_transaction)
+  File "/usr/local/lib/python3.6/dist-packages/iconsdk/icon_service.py", line 185, in send_transaction
+    return self.__provider.make_request('icx_sendTransaction', params)
+  File "/usr/local/lib/python3.6/dist-packages/iconsdk/providers/http_provider.py", line 79, in make_request
+    response = self.make_post_request(self.endpoint_uri, rpc_dict, **self.get_request_kwargs())
+  File "/usr/local/lib/python3.6/dist-packages/iconsdk/providers/http_provider.py", line 63, in make_post_request
+    response = session.post(url=endpoint_uri, data=json.dumps(data), **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 572, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='ctz.solidwallet.io', port=443): Read timed out. (read timeout=10)
+['시서스', '티몬데이', '옥션 싱글데이', '전두환', '브루나이']
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.6/ssl.py", line 1012, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.6/ssl.py", line 874, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 693, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='ctz.solidwallet.io', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/crawling/Without_Doubt_Project/Total_Crawler/Total_Crawler.py", line 34, in <module>
+    class calltransaction_transaction_RT():
+  File "/home/ubuntu/crawling/Without_Doubt_Project/Total_Crawler/Total_Crawler.py", line 103, in calltransaction_transaction_RT
+    tx_hash = icon_service.send_transaction(signed_transaction)
+  File "/usr/local/lib/python3.6/dist-packages/iconsdk/icon_service.py", line 185, in send_transaction
+    return self.__provider.make_request('icx_sendTransaction', params)
+  File "/usr/local/lib/python3.6/dist-packages/iconsdk/providers/http_provider.py", line 79, in make_request
+    response = self.make_post_request(self.endpoint_uri, rpc_dict, **self.get_request_kwargs())
+  File "/usr/local/lib/python3.6/dist-packages/iconsdk/providers/http_provider.py", line 63, in make_post_request
+    response = session.post(url=endpoint_uri, data=json.dumps(data), **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 572, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='ctz.solidwallet.io', port=443): Read timed out. (read timeout=10)
+['티몬데이', '옥션 싱글데이', '전두환', '시서스', '홍영표']
+['New York', 'Shameless', 'WWE Fastlane', 'Jennifer Hudson', 'San Antonio Spurs']
+['옥션 싱글데이', '티몬데이', '전두환', '홍영표', '브루나이']
+['Aretha Franklin', 'WWE Fastlane', 'Phoenix Suns', 'New York', 'Shameless']
+['티몬데이', '옥션 싱글데이', '전두환', '리틀팍스', '승리 카톡']
+['WWE Fastlane', 'Bronxville', 'Shameless', 'Jennifer Hudson', 'San Antonio Spurs']
+['티몬데이', '옥션 싱글데이', '전두환', '리틀팍스', '승리 카톡']
+['Phoenix Suns', 'Aretha Franklin', 'WWE Fastlane', 'New York City', 'Shameless']
+['티몬데이', '옥션 싱글데이', '전두환', '리틀팍스', '브루나이']
+['Phoenix Suns', 'Aretha Franklin', 'WWE Fastlane', 'Shameless', 'San Antonio Spurs']
+['티몬데이', '옥션 싱글데이', '전두환', '리틀팍스', '브루나이']
+['WWE Fastlane', 'Shameless', 'Golden State Warriors', 'Jennifer Hudson', 'San Antonio Spurs']
+['티몬데이', '옥션 싱글데이', '전두환', '리틀팍스', '브루나이']
+['Phoenix Suns', 'Tamina Snuka', 'Shameless', 'Jennifer Hudson', 'San Antonio Spurs']
+['티몬데이', '옥션 싱글데이', '전두환', '브루나이', '리틀팍스']
+['Phoenix Suns', 'Aretha Franklin', 'Tamina Snuka', 'Shameless', 'San Antonio Spurs']
+['티몬데이', '옥션 싱글데이', '전두환', '브루나이', '승리 카톡']
+['Phoenix Suns', 'Aretha Franklin', 'Tamina Snuka', 'Shameless', 'San Antonio Spurs']
+['티몬데이', '옥션 싱글데이', '전두환', '브루나이', '승리 카톡']
+['Aretha Franklin', 'Phoenix Suns', 'The Walking Dead', 'Shameless', 'Tamina Snuka']
+['티몬데이', '옥션 싱글데이', '전두환', '브루나이', '승리 카톡']
+['Aretha Franklin', 'Shameless', 'Golden State Warriors', 'New York City', 'Tamina Snuka']
+['티몬데이', '옥션 싱글데이', '전두환', '브루나이', '승리 카톡']
+['Phoenix Suns', 'Aretha Franklin', 'Shameless', 'New York City', 'Total Bellas']
+['티몬데이', '옥션 싱글데이', '전두환', '브루나이', '이강인']
+['Phoenix Suns', 'Aretha Franklin', 'Shameless', 'New York City', 'Total Bellas']
+['티몬데이', '옥션 싱글데이', '전두환', '브루나이', '엠바고']
+['Phoenix Suns', 'Shameless', 'Jennifer Hudson', 'New York City', 'The Walking Dead']
+['티몬데이', '전두환', '옥션 싱글데이', '브루나이', '엠바고']
+['Phoenix Suns', 'Shameless', 'Aretha Franklin', 'New York City', 'Brock Lesnar']
+['티몬데이', '전두환', '옥션 싱글데이', '브루나이', '승리 카톡']
+['Golden State Warriors', 'Shameless', 'Jennifer Hudson', 'New York City', 'Roman Reigns']
+['티몬데이', '전두환', '옥션 싱글데이', '브루나이', '엠바고']
+['Phoenix Suns', 'Shameless', 'Aretha Franklin', 'Roman Reigns', 'Tamina Snuka']
+['티몬데이', '전두환', '옥션 싱글데이', '브루나이', '승리 카톡']
+['Phoenix Suns', 'Shameless', 'Aretha Franklin', 'Roman Reigns', 'WWE Fastlane']
+['티몬데이', '전두환', '옥션 싱글데이', '브루나이', '승리 카톡']
+['Phoenix Suns', 'Shameless', 'Roman Reigns', 'Aviation accident and incident', 'Tamina Snuka']
+['티몬데이', '전두환', '옥션 싱글데이', '브루나이', '승리 카톡']
+['Phoenix Suns', 'Shameless', 'Great American Conference', 'Aretha Franklin', 'Roman Reigns']
+['티몬데이', '전두환', '노태우', '승리 카톡', '옥션 싱글데이']
+['Phoenix Suns', 'Shameless', 'Great American Conference', 'Lubbock Christian University', 'Roman Reigns']
+['티몬데이', '전두환', '노태우', '승리 카톡', '브루나이']
+['Golden State Warriors', 'Shameless', 'Great American Conference', 'Roman Reigns', 'New York City']
+['티몬데이', '전두환 나이', '노태우', '승리 카톡', '브루나이']
+['Phoenix Suns', 'Shameless', 'Great American Conference', 'New York City', 'Roman Reigns']
+['전두환 나이', '티몬데이', '노태우', '승리 카톡', '채림']
+['Phoenix Suns', 'Shameless', 'Great American Conference', 'Roman Reigns', 'Lubbock Christian University']
+['전두환 나이', '티몬데이', '노태우', '승리 카톡', '채림']
+['Phoenix Suns', 'Kevin Durant', 'Shameless', 'Great American Conference', 'Roman Reigns']
+['전두환 나이', '티몬데이', '노태우', '승리 카톡', '채림']
+['Phoenix Suns', 'Shameless', 'Great American Conference', 'Lubbock Christian University', 'Ethiopian Airlines']
+['전두환 나이', '티몬데이', '노태우', '승리 카톡', '채림']
+['Golden State Warriors', 'Shameless', 'Great American Conference', 'Lubbock Christian University', 'New York City']
+['전두환 나이', '티몬데이', '노태우', '승리 카톡', '채림']
+['Golden State Warriors', 'Kevin Durant', 'Shameless', 'Great American Conference', 'National Collegiate Athletic Association']
+['전두환 나이', '티몬데이', '노태우', '승리 카톡', '채림']
+['Golden State Warriors', 'Shameless', 'Lubbock Christian University', 'Georgetown University Law Center', 'Anaheim Ducks']
+['전두환 나이', '티몬데이', '채림', '승리 카톡', '노태우']
+['Golden State Warriors', 'Shameless', 'Lubbock Christian University', 'Ethiopian Airlines', 'Anaheim Ducks']
+['전두환 나이', '티몬데이', '채림', '승리 카톡', '노태우']
+['Golden State Warriors', 'Shameless', 'National Collegiate Athletic Association', 'Georgetown University Law Center', 'Golden State Warriors']
+['전두환 나이', '티몬데이', '채림', '승리 카톡', '노태우']
+['Golden State Warriors', 'Shameless', 'Rocky Mountain Athletic Conference', 'Georgetown University Law Center', 'Anaheim Ducks']
+['전두환', '티몬데이', '채림', '승리 카톡', '이채욱']
+['Golden State Warriors', 'Shameless', 'DeMarcus Cousins', 'Ethiopian Airlines', 'Anaheim Ducks']
+['전두환', '티몬데이', '채림', '승리 카톡', '이채욱']
+['Golden State Warriors', 'Shameless', 'Georgetown University Law Center', 'Anaheim Ducks', 'Golden State Warriors']
+['전두환', '티몬데이', '채림', '승리 카톡', '이채욱']
+['DeMarcus Cousins', 'Shameless', 'Ethiopian Airlines', 'Anaheim Ducks', 'Federal Communications Commission']
+['전두환', '티몬데이', '채림', '승리 카톡', '이채욱']
+['DeMarcus Cousins', 'Shameless', 'Golden State Warriors', 'Ethiopian Airlines', 'Anaheim Ducks']
+['전두환', '티몬데이', '채림', '승리 카톡', '이채욱']
+['Phoenix Suns', 'Shameless', 'Ethiopian Airlines', 'Anaheim Ducks', 'Federal Communications Commission']
+['전두환', '채림', '티몬데이', '승리 카톡', '승리 몰카']
+['Phoenix Suns', 'Shameless', 'Georgetown University Law Center', 'Federal Communications Commission', 'Anaheim Ducks']
+['전두환', '채림', '티몬데이', '승리 카톡', '승리 몰카']
+['Golden State Warriors', 'Shameless', 'Georgetown University Law Center', 'Federal Communications Commission', 'Anaheim Ducks']
+['전두환', '채림', '티몬데이', '승리 카톡', '승리 연예인']
+['Phoenix Suns', 'Shameless', 'Federal Communications Commission', 'Anaheim Ducks', 'Aviation accident and incident']
+['전두환', '채림', '티몬데이', '승리 연예인', '승리 카톡']
+['Shameless', 'Federal Communications Commission', 'Aviation accident and incident', 'Michelle Wie', 'Anaheim Ducks']
+['전두환', '채림', '티몬데이', '승리 연예인', '승리 카톡']
+['Golden State Warriors', 'Shameless', 'Federal Communications Commission', 'Aviation accident and incident', 'Anaheim Ducks']
+['전두환', '채림', '승리 연예인', '티몬데이', '승리 카톡']
+['Phoenix Suns', 'Shameless', 'Federal Communications Commission', 'Aviation accident and incident', 'Kevin Durant']
+['전두환', '채림', '승리 연예인', '티몬데이', '승리 카톡']
+['Golden State Warriors', 'Shameless', 'Federal Communications Commission', 'Aviation accident and incident', 'Anaheim Ducks']
+['전두환', '승리 연예인', '채림', '티몬데이', '에픽하이']
+['Phoenix Suns', 'Federal Communications Commission', 'Shameless', 'Kevin Durant', 'Anaheim Ducks']
+['승리 연예인', '전두환', '채림', '티몬데이', '에픽하이']
+['Federal Communications Commission', 'Phoenix Suns', 'Shameless', 'Kevin Durant', 'Anaheim Ducks']
+['승리 연예인', '전두환 나이', '채림', '티몬데이', '에픽하이']
+['Federal Communications Commission', 'Golden State Warriors', 'Shameless', 'Anaheim Ducks', 'Aviation accident and incident']
+['승리 연예인', '전두환 나이', '채림', '티몬데이', '에픽하이']
+['Federal Communications Commission', 'Shameless', 'Kevin Durant', 'Phoenix Suns', 'Anaheim Ducks']
+['승리 연예인', '전두환 나이', '채림', '티몬데이', '에픽하이']
+['Federal Communications Commission', 'Shameless', 'Golden State Warriors', 'Aviation accident and incident', 'Medical ventilator']

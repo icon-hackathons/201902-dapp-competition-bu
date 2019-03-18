@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+<html lang="en" ng-app="ExampleApp">
+
+#장고에서 지정한 static 경로를 참조할 수 있도록 한다.
+#모든 참조 경로는 {% --- %} 형태로 지정해야 한다.
+{% load staticfiles %}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>real time_google</title>
+
+     <!-- Bootstrap core CSS -->
+  <link href='{% static "vendor/bootstrap/css/bootstrap.min.css" %}' rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href='{% static "vendor/fontawesome-free/css/all.min.css" %}' rel="stylesheet" type="text/css">
+  <link href= "https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href= "https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type="text/css">
+  <link href= "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel='stylesheet' type='text/css'>
+  <link href= "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href='{% static "css/agency.min.css" %}' rel="stylesheet">
+
+    <!-- 스크립트 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"></script>
+    <script src='{% static "rawgit/scroll-events.min.js" %}></script>
+    <script src='{% static "rawgit/datetime-inputs.min.js" %}></script>
+
+    <script src='{% static "rawgit/datetime-range.min.js" %}></script>
+    <script src='{% static "rawgit/moment.min.js" %}></script>
+    <script src='{% static "rawgit/scroll-events.min.js" %}></script>
+    <script src='{% static "rawgit/datetime-inputs.min.js" %}></script>
+
+    <link rel="stylesheet" href='{% static "rawgit/datetime-range.min.css" %}>
+    <link rel="stylesheet" href='{% static "rawgit/datetime-inputs.min.css" %}>
+
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+</head>
+
+<!-- About -->
+
+<body ng-controller="MainCtrl">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">GOOGLE TODAY TOP20</h2>
+#폼 아래의 input 값들을 get방식을 통해 전달한다
+                <form id="frm" action="" method="get">
+                   <div>
+                        <div class="form-group">
+                           <fieldset>
+#date타입의 input 선언, userdate라는 파라미터에 할당, 날짜범위를 2019-02-01~2020-02-01로 제한
+         <input class="btn btn-primary" id = "now_date" type="date" name="userdate" min="2019-02-01" max="2020-02-01">
+#버튼을 누르면 위 input 값을 전송한다.
+              <input class="btn btn-primary" type="submit" value="검색"></div>
+                           </fieldset>
+
+                        <ol class= "rolldown-list" >
+
+
+#view.py에서 전송된 error변수 값을 읽어 에러를 처리해준다.
+#만약 error변수가 1일경우
+{% if error == 1 %}
+<script type="text/javascript">
+#데이터를 찾을 수 없다는 경고창을 웹페이지에 보여주고.
+  alert('데이터를 찾을 수 없습니다.')
+#원래 페이지로 다시 이동시킨다.
+  window.location.href = '/realtime_Top20_google.html';
+</script>
+
+#만약 error변수가 2일경우
+{% elif error == 2 %}
+<script type="text/javascript">
+#잘못된 접근이라는 경고창을 웹페이지에 보여주고.
+  alert('잘못된 접근입니다.\n')
+#원래 페이지로 다시 이동시킨다.
+  window.location.href = '/realtime_Top20_google.html';
+</script>
+{% endif %}
+
+    <script>
+#views.py에서 전송된 date변수 값을 a에 할당한다.
+        var a = "{{date}}"
+#date변수의 길이를 구해 값이 존재하지 않으면 아래 구문을 실행
+        b = a.length
+    if( b > 5 ) {
+#현재 시간을 구해 today변수에 할당한다.
+        var today = moment().format('{{date}}')
+#웹페이지의 날짜 UI에 현재시간을 출력해준다.
+        document.getElementById('now_date').value = today
+    } 
+#만약 date변수의 값이 존재할 경우 views.py에서 전송된 date변수를 웹페이지의 날짜 UI에 출력해준다.
+else {
+        document.getElementById('now_date').valueAsDate = new Date();
+    }
+    </script>
+
+#views.py에서 전송된 posts변수의 G_Word칼럼 내용을 왼쪽정렬하여 템플릿상에 번호 출력해준다.
+    {% for post in posts %}
+     <li style="text-align:left">{{post.G_Word}}</li>
+    {% endfor %}
+                        </ol>
+
+
+                    
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+      <!-- Bootstrap core JavaScript -->
+  <script src='{% static "vendor/jquery/jquery.min.js" %}'></script>
+  <script src='{% static "vendor/bootstrap/js/bootstrap.bundle.min.js" %}'></script>
+
+  <!-- Plugin JavaScript -->
+  <script src='{% static "vendor/jquery-easing/jquery.easing.min.js" %}'></script>
+
+  <!-- Contact form JavaScript -->
+  <script src='{% static "js/jqBootstrapValidation.js" %}'></script>
+  <script src='{% static "js/contact_me.js" %}'></script>
+
+  <!-- Custom scripts for this template -->
+  <script src='{% static "js/agency.min.js" %}'></script>
+   
+    <script>
+        angular.module('ExampleApp', ['g1b.scroll-events', 'g1b.datetime-inputs', 'g1b.datetime-range']).
+        controller('MainCtrl', function($scope) {
+
+            // Datetime inputs initial variable
+            $scope.now = moment();
+
+            // Datetime range start/end vars
+            $scope.start = moment();
+            $scope.end = moment().add(1, 'days').add(1, 'hours');
+
+            // Datetime range presets
+            $scope.presets = [{
+                'name': 'This Week',
+                'start': moment().startOf('week').startOf('day'),
+                'end': moment().endOf('week').endOf('day'),
+            }, {
+                'name': 'This Month',
+                'start': moment().startOf('month').startOf('day'),
+                'end': moment().endOf('month').endOf('day'),
+            }, {
+                'name': 'This Year',
+                'start': moment().startOf('year').startOf('day'),
+                'end': moment().endOf('year').endOf('day'),
+            }];
+
+            // Datetime input on change callback
+            $scope.print = function(datetime) {
+                console.log('datetime', datetime);
+            };
+
+            // Datetime range on change callback
+            $scope.changed = function() {
+                console.log('changed start or end datetime objects');
+            };
+
+            // Datetime
+            $scope.changedStart = function() {
+                console.log('changed start datetime object');
+            };
+            $scope.changedEnd = function() {
+                console.log('changed end datetime object');
+            };
+            $scope.closed = function() {
+                console.log('edit popover closed');
+            };
+        });
+    </script>
+
+</body>
+
+</html>
