@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Django_Server/crawling_App/views.py" line="115" />
+  </component>
+=======
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
   <component name="ChangeListManager">
     <list default="true" id="6b239ccf-a018-49e0-b170-7c5e851d22e2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,6 +18,18 @@
     <favorites_list name="Without_Doubt_Project" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <splitter split-orientation="horizontal" split-proportion="0.37908062">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Total_Crawler/Total_Crawler.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="189">
+                  <caret line="311" column="23" lean-forward="true" selection-start-line="311" selection-start-column="23" selection-end-line="311" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#101#162#0" expanded="true" />
+=======
     <splitter split-orientation="horizontal" split-proportion="0.49562842">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -22,16 +40,29 @@
                   <caret line="33" selection-start-line="33" selection-end-line="33" />
                   <folding>
                     <element signature="e#97#128#0" expanded="true" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ICON_SCORE/ICON_SCORE.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="22" column="76" lean-forward="true" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+=======
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="111">
                   <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
                 </state>
               </provider>
             </entry>
@@ -39,6 +70,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/views.py">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+                <state relative-caret-position="2730">
+                  <caret line="182" column="17" selection-start-line="182" selection-start-column="17" selection-end-line="182" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#92#119#0" expanded="true" />
+                  </folding>
+=======
                 <state relative-caret-position="180">
                   <caret line="22" selection-start-line="22" selection-end-line="22" />
                 </state>
@@ -109,6 +147,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="195">
                   <caret line="29" selection-start-line="29" selection-end-line="29" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
                 </state>
               </provider>
             </entry>
@@ -128,8 +167,16 @@
     <findStrings>
       <find>key1</find>
       <find>lee</find>
+<<<<<<< HEAD
+      <find>json</find>
+      <find>print</find>
+      <find>sleep</find>
+      <find>rolldo</find>
+      <find>realtime</find>
+=======
       <find>sleep</find>
       <find>json</find>
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -140,6 +187,21 @@
         <option value="$PROJECT_DIR$/Django_Server/mysite/urls.py" />
         <option value="$PROJECT_DIR$/Django_Server/crawling_App/urls.py" />
         <option value="$PROJECT_DIR$/Django_Server/mysite/settings.py" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/tbears_server_config.json" />
+        <option value="$PROJECT_DIR$/Django_Server/crawling_App/models.py" />
+        <option value="$PROJECT_DIR$/Total_Crawler/mykeystore" />
+        <option value="$PROJECT_DIR$/tbears_cli_config.json" />
+        <option value="$PROJECT_DIR$/ICON_SCORE/ICON_SCORE.py" />
+        <option value="$PROJECT_DIR$/Django_Server/crawling_App/crawling/index.html" />
+        <option value="$PROJECT_DIR$/Django_Server/crawling_App/views.py" />
+        <option value="$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/realtime_google.html" />
+        <option value="$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/realtime_Top20_google.html" />
+        <option value="$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/realtime.html" />
+        <option value="$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/realtime_Top20.html" />
+        <option value="$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/index.html" />
+        <option value="$PROJECT_DIR$/Total_Crawler/Total_Crawler.py" />
+=======
         <option value="$PROJECT_DIR$/ICON_SCORE/ICON_SCORE.py" />
         <option value="$PROJECT_DIR$/tbears_server_config.json" />
         <option value="$PROJECT_DIR$/tbears_cli_config.json" />
@@ -151,14 +213,22 @@
         <option value="$PROJECT_DIR$/Django_Server/crawling_App/views.py" />
         <option value="$PROJECT_DIR$/Total_Crawler/Total_Crawler.py" />
         <option value="$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/index.html" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="217" />
+    <option name="y" value="50" />
+    <option name="width" value="1445" />
+    <option name="height" value="934" />
+=======
     <option name="x" value="67" />
     <option name="y" value="27" />
     <option name="width" value="1837" />
     <option name="height" value="941" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -189,29 +259,60 @@
               <item name="Without_Doubt_Project" type="462c0819:PsiDirectoryNode" />
               <item name="Django_Server" type="462c0819:PsiDirectoryNode" />
               <item name="crawling_App" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
             </path>
             <path>
               <item name="Without_Doubt_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Without_Doubt_Project" type="462c0819:PsiDirectoryNode" />
               <item name="Django_Server" type="462c0819:PsiDirectoryNode" />
               <item name="crawling_App" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="crawling" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
+            </path>
+            <path>
+              <item name="Without_Doubt_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Without_Doubt_Project" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="Django_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="crawling_App" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="ICON_SCORE" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
+            </path>
+            <path>
+              <item name="Without_Doubt_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Without_Doubt_Project" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="Django_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="crawling_App" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Without_Doubt_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Without_Doubt_Project" type="462c0819:PsiDirectoryNode" />
               <item name="ICON_SCORE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Without_Doubt_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Without_Doubt_Project" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="Total_Crawler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Without_Doubt_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="ICON" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
             </path>
           </expand>
           <select />
@@ -220,12 +321,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hollyshit/Google_Crawling.py" />
+=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ICON" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Django_Server/crawling_App" />
+<<<<<<< HEAD
+      <recent name="$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling" />
+      <recent name="$PROJECT_DIR$/Django_Server/crawling_App/static" />
+      <recent name="$PROJECT_DIR$/Django_Server/crawling_App/crawling" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Django_Server/crawling_App/templates" />
+      <recent name="$PROJECT_DIR$" />
+=======
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,6 +407,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="959" extended-state="6" />
+<<<<<<< HEAD
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7915905" visible="true" weight="0.17978142" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.2084095" side_tool="true" weight="0.17916207" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2701363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40144232" />
+=======
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7915905" visible="true" weight="0.17868853" />
@@ -300,18 +424,46 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965687" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42307693" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932693" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.38221154" />
+=======
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32932693" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32965687" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+<<<<<<< HEAD
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7915905" visible="true" weight="0.31726134" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.2084095" side_tool="true" weight="0.17916207" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2701363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2365196" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32932693" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.17156863" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32965687" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+=======
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -326,6 +478,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mysite/settings.py" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     <entry file="file://$PROJECT_DIR$/../ICON/crawling/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -349,9 +502,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/static/js/date.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     <entry file="file://$PROJECT_DIR$/Django_Server/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -364,6 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/chart.html" />
     <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/si.html" />
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/a">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1185">
@@ -371,6 +529,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     <entry file="file://$PROJECT_DIR$/../ICON/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -391,25 +550,84 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/../ICON/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="82" selection-start-line="82" selection-end-line="91" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ICON/crawling/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/../ICON/crawling_DB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/ICON_SCORE/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICON_SCORE/tests/test_ICON_SCORE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbears.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/../ICON/crawling_score_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keystore_test1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testnet_keystore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="110" selection-start-column="68" selection-end-column="110" />
+=======
     <entry file="file://$PROJECT_DIR$/../ICON/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -424,6 +642,7 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
         </state>
       </provider>
     </entry>
@@ -434,15 +653,113 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/../ICON/crawling.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbears_server_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ICON/crawling_score_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ICON/crawling_DB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/apscheduler/schedulers/blocking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+=======
     <entry file="file://$PROJECT_DIR$/tbears_server_config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tbears_cli_config.json">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Total_Crawler/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Total_Crawler/tbears.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Total_Crawler/Time_log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2475">
+          <caret line="165" column="19" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7350">
+          <caret line="496" selection-start-line="496" selection-end-line="496" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hollyshit/Google_Crawling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/realtime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/a">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
         <state relative-caret-position="225">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
@@ -459,10 +776,43 @@
         <state>
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/static/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/realtime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="91" column="7" selection-start-line="60" selection-start-column="2" selection-end-line="91" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/realtime_Top20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="142" column="7" selection-start-line="64" selection-start-column="21" selection-end-line="142" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/realtime_google.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ol#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/tbears.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -486,10 +836,81 @@
           <caret line="7" column="38" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="38" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/static/js/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/static/vendor/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="10270" column="32" selection-start-line="10270" selection-start-column="32" selection-end-line="10270" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/realtime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/realtime_Top20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ol#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="117" column="66" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/realtime_Top20_google.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="130" column="14" lean-forward="true" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/realtime_google.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="82" selection-start-line="50" selection-start-column="22" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/realtime_Top20_google.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="155" column="7" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ol#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICON_SCORE/package.json">
+=======
     <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/templates/crawling/realtime.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -529,10 +950,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keystore_test1">
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Django_Server/crawling_App/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="2730">
+          <caret line="182" column="17" selection-start-line="182" selection-start-column="17" selection-end-line="182" selection-end-column="17" />
+          <folding>
+            <element signature="e#92#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICON_SCORE/ICON_SCORE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="76" lean-forward="true" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Total_Crawler/Total_Crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="311" column="23" lean-forward="true" selection-start-line="311" selection-start-column="23" selection-end-line="311" selection-end-column="23" />
+          <folding>
+            <element signature="e#101#162#0" expanded="true" />
+          </folding>
+=======
         <state relative-caret-position="180">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
@@ -552,6 +998,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
         </state>
       </provider>
     </entry>

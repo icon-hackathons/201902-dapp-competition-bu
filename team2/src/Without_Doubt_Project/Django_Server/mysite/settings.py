@@ -25,6 +25,11 @@ SECRET_KEY = '=9(mlabjs9ui^3!uoebi4n39mohhv$qyq1fupur1_hflk(q#rq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
+#접근 가능한 호스트 설정
+#아무런 입력이 없을 경우 default는 127.0.0.1 로 설정된다
+=======
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
 ALLOWED_HOSTS = []
 
 
@@ -37,6 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
+#생성한 앱 이름을 여기에 등록한다.
+=======
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     'crawling_App',
 ]
 
@@ -74,6 +83,17 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
+<<<<<<< HEAD
+#연동을 위해 DB정보를 등록한다.
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql', #데이터 베이스 엔진입력 : 현재 MYSQL엔진으로 설정됨
+        'NAME': '[Input DB Name]', 	# db이름
+        'USER': [Input UserName],	# 유저 이름
+        'PASSWORD': [Input Password],	# 패스워드
+        'HOST': '127.0.0.1',	# 아이피 정보 입력
+        'PORT': '3306',		# 포트 정보 입력
+=======
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -82,6 +102,7 @@ DATABASES = {
         'PASSWORD': 'rootroot',
         'HOST': '127.0.0.1',
         'PORT': '3306',
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     }
 }
 
@@ -110,7 +131,11 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+<<<<<<< HEAD
+TIME_ZONE = 'Asia/Seoul' 	# 해당 시간대(타임존) 설정
+=======
 TIME_ZONE = 'Asia/Seoul'
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
 
 USE_I18N = True
 
@@ -123,4 +148,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+<<<<<<< HEAD
+#정적파일 경로 추가
+# static 밑에 HTML이 참조하는 css,json,img 등이 위치하고 있다.
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+=======
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774

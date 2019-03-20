@@ -1,3 +1,225 @@
+<<<<<<< HEAD
+[INFO|logger.py:332] 2019-03-07 10:54:07,182 > [IconServiceCli] check_serve_icon_service!
+[INFO|logger.py:332] 2019-03-07 10:54:07,197 > [LOG] start_server() start
+[INFO|logger.py:332] 2019-03-07 10:54:07,198 > [LOG] start_process() end
+[INFO|logger.py:332] 2019-03-07 10:54:07,198 > [IconServiceCli] start_command done!
+[INFO|logger.py:332] 2019-03-07 10:54:07,335 > [IconRpcServerCli] check_serve_rest_app!
+[INFO|logger.py:332] 2019-03-07 10:54:07,420 > [IconRpcServerCli] start_command done!
+[INFO|logger.py:332] 2019-03-07 10:54:07,657 > [IconServiceCli] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-03-07 10:54:07,657 > [IconServiceCli] [CONFIG.log.logger] > tbears
+[INFO|logger.py:332] 2019-03-07 10:54:07,657 > [IconServiceCli] [CONFIG.log.level] > info
+[INFO|logger.py:332] 2019-03-07 10:54:07,657 > [IconServiceCli] [CONFIG.log.filePath] > ./tbears.log
+[INFO|logger.py:332] 2019-03-07 10:54:07,657 > [IconServiceCli] [CONFIG.log.colorLog] > True
+[INFO|logger.py:332] 2019-03-07 10:54:07,657 > [IconServiceCli] [CONFIG.log.outputType] > file
+[INFO|logger.py:332] 2019-03-07 10:54:07,657 > [IconServiceCli] [CONFIG.log.rotate.type] > bytes
+[INFO|logger.py:332] 2019-03-07 10:54:07,657 > [IconServiceCli] [CONFIG.log.rotate.maxBytes] > 10485760
+[INFO|logger.py:332] 2019-03-07 10:54:07,657 > [IconServiceCli] [CONFIG.log.rotate.backupCount] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:07,657 > [IconServiceCli] [CONFIG.scoreRootPath] > ./.score
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.stateDbRootPath] > ./.statedb
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.channel] > loopchain_default
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.amqpKey] > 7100
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.amqpTarget] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.builtinScoreOwner] > hxebf3a409845cd09dcb5af31ed5be5e34e2af9433
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.service.fee] > False
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.service.audit] > False
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.service.deployerWhiteList] > False
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.service.scorePackageValidator] > False
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.hostAddress] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.port] > 9000
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.genesis.nid] > 0x3
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.blockConfirmInterval] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.blockConfirmEmpty] > True
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.verbose] > False
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.command] > start
+[INFO|logger.py:332] 2019-03-07 10:54:07,658 > [IconServiceCli] [CONFIG.config] > ./temp_conf.json
+[INFO|logger.py:332] 2019-03-07 10:54:07,659 > [IconServiceCli] [CONFIG.tbearsMode] > False
+[INFO|logger.py:332] 2019-03-07 10:54:07,659 > [IconServiceCli] ====================LOG CONFIG====================
+[ERROR|logger.py:348] 2019-03-07 10:54:07,660 > [IconServiceCli] rabbitmq-service disable
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.hostAddress] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.port] > 9000
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.scoreRootPath] > ./.score
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.stateDbRootPath] > ./.statedb
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.log.logger] > tbears
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.log.level] > info
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.log.filePath] > ./tbears.log
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.log.colorLog] > True
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.log.outputType] > file
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.log.rotate.type] > bytes
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.log.rotate.maxBytes] > 10485760
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.log.rotate.backupCount] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.service.fee] > False
+[INFO|logger.py:332] 2019-03-07 10:54:08,168 > [tbears_block_manager] [CONFIG.service.audit] > False
+[INFO|logger.py:332] 2019-03-07 10:54:08,169 > [tbears_block_manager] [CONFIG.service.deployerWhiteList] > False
+[INFO|logger.py:332] 2019-03-07 10:54:08,169 > [tbears_block_manager] [CONFIG.genesis.nid] > 0x3
+[INFO|logger.py:332] 2019-03-07 10:54:08,169 > [tbears_block_manager] [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+[INFO|logger.py:332] 2019-03-07 10:54:08,169 > [tbears_block_manager] [CONFIG.channel] > loopchain_default
+[INFO|logger.py:332] 2019-03-07 10:54:08,169 > [tbears_block_manager] [CONFIG.amqpKey] > 7100
+[INFO|logger.py:332] 2019-03-07 10:54:08,169 > [tbears_block_manager] [CONFIG.amqpTarget] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:08,169 > [tbears_block_manager] [CONFIG.blockConfirmInterval] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:08,169 > [tbears_block_manager] [CONFIG.blockConfirmEmpty] > True
+[INFO|logger.py:332] 2019-03-07 10:54:08,169 > [tbears_block_manager] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-03-07 10:54:08,218 > [tbears_block_manager] ==========tbears block_manager params==========
+[INFO|logger.py:332] 2019-03-07 10:54:08,218 > [tbears_block_manager] amqp_target  : 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:08,218 > [tbears_block_manager] amqp_key  :  7100
+[INFO|logger.py:332] 2019-03-07 10:54:08,218 > [tbears_block_manager] queue_name  : Channel.loopchain_default.7100
+[INFO|logger.py:332] 2019-03-07 10:54:08,218 > [tbears_block_manager]             : IconScore.loopchain_default.7100
+[INFO|logger.py:332] 2019-03-07 10:54:08,218 > [tbears_block_manager] ==========tbears block_manager params==========
+[ERROR|logger.py:348] 2019-03-07 10:54:08,229 > [tbears_block_manager] Failed to connect to MQ. Check rabbitMQ service. (Connection closed)
+[INFO|logger.py:332] 2019-03-07 10:54:08,229 > [tbears_block_manager] ===============tbears block_manager done================
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.log.logger] > tbears
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.log.level] > info
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.log.filePath] > ./tbears.log
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.log.colorLog] > True
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.log.outputType] > file
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.log.rotate.type] > bytes
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.log.rotate.maxBytes] > 10485760
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.log.rotate.backupCount] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.channel] > loopchain_default
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.port] > 9000
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.portDiffRestServiceContainer] > 1900
+[INFO|logger.py:332] 2019-03-07 10:54:08,504 > [IconRpcServerCli] [CONFIG.amqpKey] > 7100
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.amqpTarget] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.gunicornWorkerCount] > 5
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.disableV1Api] > True
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.restSslType] > 0
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.ipLocal] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.grpcTimeout] > 30
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.grpcRetry] > 5
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.restAdditionalTimeout] > 30
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.scoreQueryTimeout] > 120
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.hostAddress] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.scoreRootPath] > ./.score
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.stateDbRootPath] > ./.statedb
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.service.fee] > False
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.service.audit] > False
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.service.deployerWhiteList] > False
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.genesis.nid] > 0x3
+[INFO|logger.py:332] 2019-03-07 10:54:08,505 > [IconRpcServerCli] [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+[INFO|logger.py:332] 2019-03-07 10:54:08,506 > [IconRpcServerCli] [CONFIG.blockConfirmInterval] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:08,506 > [IconRpcServerCli] [CONFIG.blockConfirmEmpty] > True
+[INFO|logger.py:332] 2019-03-07 10:54:08,506 > [IconRpcServerCli] [CONFIG.verbose] > False
+[INFO|logger.py:332] 2019-03-07 10:54:08,506 > [IconRpcServerCli] [CONFIG.command] > start
+[INFO|logger.py:332] 2019-03-07 10:54:08,506 > [IconRpcServerCli] [CONFIG.config] > ./temp_conf.json
+[INFO|logger.py:332] 2019-03-07 10:54:08,506 > [IconRpcServerCli] [CONFIG.tbearsMode] > True
+[INFO|logger.py:332] 2019-03-07 10:54:08,506 > [IconRpcServerCli] ====================LOG CONFIG====================
+[ERROR|logger.py:348] 2019-03-07 10:54:08,507 > [IconRpcServerCli] rabbitmq-service disable
+[INFO|logger.py:332] 2019-03-07 10:54:23,711 > [IconServiceCli] check_serve_icon_service!
+[INFO|logger.py:332] 2019-03-07 10:54:23,725 > [LOG] start_server() start
+[INFO|logger.py:332] 2019-03-07 10:54:23,726 > [LOG] start_process() end
+[INFO|logger.py:332] 2019-03-07 10:54:23,726 > [IconServiceCli] start_command done!
+[INFO|logger.py:332] 2019-03-07 10:54:23,936 > [IconRpcServerCli] check_serve_rest_app!
+[INFO|logger.py:332] 2019-03-07 10:54:24,000 > [IconRpcServerCli] start_command done!
+[INFO|logger.py:332] 2019-03-07 10:54:24,269 > [IconServiceCli] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-03-07 10:54:24,269 > [IconServiceCli] [CONFIG.log.logger] > tbears
+[INFO|logger.py:332] 2019-03-07 10:54:24,270 > [IconServiceCli] [CONFIG.log.level] > info
+[INFO|logger.py:332] 2019-03-07 10:54:24,270 > [IconServiceCli] [CONFIG.log.filePath] > ./tbears.log
+[INFO|logger.py:332] 2019-03-07 10:54:24,270 > [IconServiceCli] [CONFIG.log.colorLog] > True
+[INFO|logger.py:332] 2019-03-07 10:54:24,270 > [IconServiceCli] [CONFIG.log.outputType] > file
+[INFO|logger.py:332] 2019-03-07 10:54:24,270 > [IconServiceCli] [CONFIG.log.rotate.type] > bytes
+[INFO|logger.py:332] 2019-03-07 10:54:24,270 > [IconServiceCli] [CONFIG.log.rotate.maxBytes] > 10485760
+[INFO|logger.py:332] 2019-03-07 10:54:24,270 > [IconServiceCli] [CONFIG.log.rotate.backupCount] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:24,270 > [IconServiceCli] [CONFIG.scoreRootPath] > ./.score
+[INFO|logger.py:332] 2019-03-07 10:54:24,278 > [IconServiceCli] [CONFIG.stateDbRootPath] > ./.statedb
+[INFO|logger.py:332] 2019-03-07 10:54:24,278 > [IconServiceCli] [CONFIG.channel] > loopchain_default
+[INFO|logger.py:332] 2019-03-07 10:54:24,278 > [IconServiceCli] [CONFIG.amqpKey] > 7100
+[INFO|logger.py:332] 2019-03-07 10:54:24,278 > [IconServiceCli] [CONFIG.amqpTarget] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:24,278 > [IconServiceCli] [CONFIG.builtinScoreOwner] > hxebf3a409845cd09dcb5af31ed5be5e34e2af9433
+[INFO|logger.py:332] 2019-03-07 10:54:24,278 > [IconServiceCli] [CONFIG.service.fee] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,278 > [IconServiceCli] [CONFIG.service.audit] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,278 > [IconServiceCli] [CONFIG.service.deployerWhiteList] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,278 > [IconServiceCli] [CONFIG.service.scorePackageValidator] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,279 > [IconServiceCli] [CONFIG.hostAddress] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:24,279 > [IconServiceCli] [CONFIG.port] > 9000
+[INFO|logger.py:332] 2019-03-07 10:54:24,279 > [IconServiceCli] [CONFIG.genesis.nid] > 0x3
+[INFO|logger.py:332] 2019-03-07 10:54:24,279 > [IconServiceCli] [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+[INFO|logger.py:332] 2019-03-07 10:54:24,279 > [IconServiceCli] [CONFIG.blockConfirmInterval] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:24,279 > [IconServiceCli] [CONFIG.blockConfirmEmpty] > True
+[INFO|logger.py:332] 2019-03-07 10:54:24,279 > [IconServiceCli] [CONFIG.verbose] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,279 > [IconServiceCli] [CONFIG.command] > start
+[INFO|logger.py:332] 2019-03-07 10:54:24,279 > [IconServiceCli] [CONFIG.config] > ./temp_conf.json
+[INFO|logger.py:332] 2019-03-07 10:54:24,279 > [IconServiceCli] [CONFIG.tbearsMode] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,279 > [IconServiceCli] ====================LOG CONFIG====================
+[ERROR|logger.py:348] 2019-03-07 10:54:24,280 > [IconServiceCli] rabbitmq-service disable
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.hostAddress] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.port] > 9000
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.scoreRootPath] > ./.score
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.stateDbRootPath] > ./.statedb
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.log.logger] > tbears
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.log.level] > info
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.log.filePath] > ./tbears.log
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.log.colorLog] > True
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.log.outputType] > file
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.log.rotate.type] > bytes
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.log.rotate.maxBytes] > 10485760
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.log.rotate.backupCount] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.service.fee] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [tbears_block_manager] [CONFIG.service.audit] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,734 > [IconRpcServerCli] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [tbears_block_manager] [CONFIG.service.deployerWhiteList] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.log.logger] > tbears
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [tbears_block_manager] [CONFIG.genesis.nid] > 0x3
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.log.level] > info
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [tbears_block_manager] [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.log.filePath] > ./tbears.log
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [tbears_block_manager] [CONFIG.channel] > loopchain_default
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.log.colorLog] > True
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [tbears_block_manager] [CONFIG.amqpKey] > 7100
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.log.outputType] > file
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [tbears_block_manager] [CONFIG.amqpTarget] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.log.rotate.type] > bytes
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [tbears_block_manager] [CONFIG.blockConfirmInterval] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.log.rotate.maxBytes] > 10485760
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [tbears_block_manager] [CONFIG.blockConfirmEmpty] > True
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.log.rotate.backupCount] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [tbears_block_manager] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.channel] > loopchain_default
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.port] > 9000
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.portDiffRestServiceContainer] > 1900
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.amqpKey] > 7100
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.amqpTarget] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.gunicornWorkerCount] > 5
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.disableV1Api] > True
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.restSslType] > 0
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+[INFO|logger.py:332] 2019-03-07 10:54:24,735 > [IconRpcServerCli] [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.ipLocal] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.grpcTimeout] > 30
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.grpcRetry] > 5
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.restAdditionalTimeout] > 30
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.scoreQueryTimeout] > 120
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.hostAddress] > 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.scoreRootPath] > ./.score
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.stateDbRootPath] > ./.statedb
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.service.fee] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.service.audit] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.service.deployerWhiteList] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.genesis.nid] > 0x3
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.blockConfirmInterval] > 10
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.blockConfirmEmpty] > True
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.verbose] > False
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.command] > start
+[INFO|logger.py:332] 2019-03-07 10:54:24,736 > [IconRpcServerCli] [CONFIG.config] > ./temp_conf.json
+[INFO|logger.py:332] 2019-03-07 10:54:24,737 > [IconRpcServerCli] [CONFIG.tbearsMode] > True
+[INFO|logger.py:332] 2019-03-07 10:54:24,737 > [IconRpcServerCli] ====================LOG CONFIG====================
+[ERROR|logger.py:348] 2019-03-07 10:54:24,738 > [IconRpcServerCli] rabbitmq-service disable
+[INFO|logger.py:332] 2019-03-07 10:54:24,757 > [tbears_block_manager] ==========tbears block_manager params==========
+[INFO|logger.py:332] 2019-03-07 10:54:24,757 > [tbears_block_manager] amqp_target  : 127.0.0.1
+[INFO|logger.py:332] 2019-03-07 10:54:24,757 > [tbears_block_manager] amqp_key  :  7100
+[INFO|logger.py:332] 2019-03-07 10:54:24,757 > [tbears_block_manager] queue_name  : Channel.loopchain_default.7100
+[INFO|logger.py:332] 2019-03-07 10:54:24,757 > [tbears_block_manager]             : IconScore.loopchain_default.7100
+[INFO|logger.py:332] 2019-03-07 10:54:24,757 > [tbears_block_manager] ==========tbears block_manager params==========
+[ERROR|logger.py:348] 2019-03-07 10:54:24,759 > [tbears_block_manager] Failed to connect to MQ. Check rabbitMQ service. (Connection closed)
+[INFO|logger.py:332] 2019-03-07 10:54:24,759 > [tbears_block_manager] ===============tbears block_manager done================
+=======
 [INFO|logger.py:332] 2019-02-25 04:20:59,138 > [IconServiceCli] check_serve_icon_service!
 [INFO|logger.py:332] 2019-02-25 04:20:59,163 > [LOG] start_server() start
 [INFO|logger.py:332] 2019-02-25 04:20:59,164 > [LOG] start_process() end
@@ -5001,3 +5223,4 @@
 [INFO|logger.py:332] 2019-02-25 06:04:07,704 > [IconInnerService] invoke response with {'txResults': {'7028519d8fe857dc1c4f61f94ab151f1bd7c76f8fdaecd70b65a93ae421deca9': {'txHash': '7028519d8fe857dc1c4f61f94ab151f1bd7c76f8fdaecd70b65a93ae421deca9', 'blockHeight': '0x268', 'blockHash': 'b268705e1887ae67a8135caaaa2645e9b8d8c01f0a0b5c609ab35127eb690533', 'txIndex': '0x0', 'to': 'cxd7a6b2739f415809dccc5c1e2d7f6fe0249cd67c', 'stepUsed': '0x112128', 'stepPrice': '0x0', 'cumulativeStepUsed': '0x112128', 'eventLogs': [], 'logsBloom': '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000', 'status': '0x1'}}, 'stateRootHash': '4e7be946bf1977b03c5833a2d485d7cd46b19f12d5b22550e9d2dea7d6f1b0b8'}
 [INFO|logger.py:332] 2019-02-25 06:04:07,707 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x269', 'blockHash': 'b268705e1887ae67a8135caaaa2645e9b8d8c01f0a0b5c609ab35127eb690533'}
 [INFO|logger.py:332] 2019-02-25 06:04:07,708 > [IconInnerService] write_precommit_state response with 0x0
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774

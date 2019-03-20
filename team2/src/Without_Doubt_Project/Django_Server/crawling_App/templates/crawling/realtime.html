@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="ExampleApp">
+<<<<<<< HEAD
+
+#장고에서 지정한 static 경로를 참조할 수 있도록 한다.
+#모든 참조 경로는 {% --- %} 형태로 지정해야 한다.
+=======
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
 {% load staticfiles %}
 <head>
     <meta charset="utf-8">
@@ -35,6 +41,65 @@
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">NAVER 실검기록</h2>
 
+<<<<<<< HEAD
+#폼 아래의 input 값들을 get방식을 통해 전달한다.
+                <form id="frm" action="" method="get">
+                    <div>
+                        <div class="form-group">
+                            <fieldset>
+#date타입의 input 선언, userdate라는 파라미터에 할당, 날짜범위를 2019-02-01~2020-02-01로 제한
+            <input class="btn btn-primary" id = "now_date" type="date" name="userdate" min="2019-02-01" max="2020-02-01">
+#time타입의 input 선언, usertime라는 파라미터에 할당, 시간 간격을 300초(5분)으로 선택할 수 있게 제한한다.
+             <input class="btn btn-primary" id="now_time" type="time" name="usertime" step="300">
+#버튼을 누르면 위 input 값을 전송한다.
+            <input class="btn btn-primary" type="submit" value="검색"></div>
+                        </fieldset>
+
+                    <ol class="rolldown-list_1">
+
+    <script>
+#views.py에서 전송된 dtae,time변수를 날짜와 시간 웹페이지 UI에 출력해준다.
+          document.getElementById('now_date').value = "{{date}}"
+          document.getElementById('now_time').value = "{{time}}"
+
+    </script>
+
+
+#view.py에서 전송된 error변수 값을 읽어 에러를 처리해준다.
+#만약 error변수가 1일경우
+{% if error == 1 %}
+<script type="text/javascript">
+#데이터를 찾을 수 없다는 경고창을 웹페이지에 보여주고.
+  alert('데이터를 찾을 수 없습니다.')
+#원래 페이지로 다시 이동시킨다.
+  window.location.href = '/realtime.html';
+</script>
+
+#만약 error변수가 2일경우
+{% elif error == 2 %}
+<script type="text/javascript">
+#잘못된 접근이라는 경고창을 웹페이지에 보여주고.
+  alert('잘못된 접근입니다.\n')
+#원래 페이지로 다시 이동시킨다.
+  window.location.href = '/realtime.html';
+</script>
+{% endif %}
+
+#views.py에서 전송된 posts변수를 왼쪽정렬하여 템플릿상에 번호 출력해준다.
+        {% for post in posts %}
+     <li style="text-align:left">{{post}}</li>
+    {% endfor %}
+                        </ol>
+
+#views.py에서 전송된 missing변수를 왼쪽정렬하여 템플릿상에 번호 출력해준다.
+                </br></br></br>
+                <h4 class="section-heading text-uppercase">누락 값</h4>
+                <ol class="rolldown-list_1">
+                    {% for miss in missing %}
+                    <li style="text-align:left">{{miss}}</li>
+                    {% endfor %}
+                </ol>
+=======
                 <form id="frm" action="" method="get">
                     <div>
                         <div class="form-group">
@@ -48,6 +113,7 @@
                         </ol>
 
 
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
 
 
                     </div>
@@ -76,4 +142,8 @@
 
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774

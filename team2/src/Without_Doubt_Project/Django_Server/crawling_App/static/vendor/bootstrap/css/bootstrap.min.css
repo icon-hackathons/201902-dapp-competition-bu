@@ -10220,12 +10220,19 @@ a.text-dark:hover {
 
 
 .rolldown-list {
+<<<<<<< HEAD
+    font: 1.2em 'Oswald', sans-serif;
+    counter-reset: ordered;
+    text-align: left;
+    color: white;
+=======
     font: 0.8em 'Oswald', sans-serif;
     counter-reset: ordered;
     text-align: left;
     color: floralwhite;
     margin-left: 70px; 
     margin-right: 138px;
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     margin-top: 30px;
 }
 
@@ -10233,8 +10240,12 @@ a.text-dark:hover {
     margin-bottom: .125em;
     text-transform: uppercase;
     list-style-type: none;
+<<<<<<< HEAD
+    color: black;
+=======
     
     
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
 }
 
 .rolldown-list li::before {
@@ -10255,16 +10266,86 @@ a.text-dark:hover {
     animation: rolldown .7s 1;
     transform-origin: 150% 0;
     animation-fill-mode: forwards;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     
 }
 
 .rolldown-list li:nth-child(2n) {
+<<<<<<< HEAD
+    background-color: white;
+=======
     background-color: #444;
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     
     
 }
 
 .rolldown-list li:nth-child(2n + 1) {
+<<<<<<< HEAD
+    background-color: #4284F4;
+    
+}
+
+.rolldown-list_1 {
+    font: 1.2em 'Oswald', sans-serif;
+    counter-reset: ordered;
+    text-align: left;
+    color: white;
+    margin-top: 30px;
+    
+}
+
+.rolldown-list_1 li {
+    margin-bottom: .125em;
+    text-transform: uppercase;
+    list-style-type: none;
+    color: black;
+    
+}
+
+.rolldown-list_1 li::before {
+  
+  border-radius: 100%;
+  width: 3rem;
+  height: 1rem;
+  content: counter(ordered);
+  counter-increment: ordered;
+  display: inline-block;
+  font-weight: 100;
+  margin-top:-7px;
+  padding: 10px 13px;
+    
+}
+
+.rolldown-list_1 li {
+    visibility: hidden;
+    animation: rolldown .7s 1;
+    transform-origin: 150% 0;
+    animation-fill-mode: forwards;
+    
+    
+}
+
+.rolldown-list_1 li:nth-child(2n) {
+    background-color: white;
+    
+    
+}
+
+.rolldown-list_1 li:nth-child(2n + 1) {
+    background-color: #19CD61;
+    
+}
+
+
+#myList {
+    position: absolute;
+    width: 83%;
+    left: 30%;
+=======
     background-color: #2588;
     
 }
@@ -10273,6 +10354,7 @@ a.text-dark:hover {
     position: absolute;
     width: 50%;
     left: 50%;
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
     margin-left: -25%;
 }
 

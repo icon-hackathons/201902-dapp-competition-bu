@@ -1,5 +1,11 @@
  <!DOCTYPE html>
 <html lang="en" ng-app="ExampleApp">
+<<<<<<< HEAD
+
+#장고에서 지정한 static 경로를 참조할 수 있도록 한다.
+#모든 참조 경로는 {% --- %} 형태로 지정해야 한다.
+=======
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
 {% load staticfiles %}
 <head>
     <meta charset="utf-8">
@@ -48,6 +54,63 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">GOOGLE TODAY TOP20</h2>
+<<<<<<< HEAD
+#폼 아래의 input 값들을 get방식을 통해 전달한다
+                <form id="frm" action="" method="get">
+                   <div>
+                        <div class="form-group">
+                           <fieldset>
+#date타입의 input 선언, userdate라는 파라미터에 할당, 날짜범위를 2019-02-01~2020-02-01로 제한
+         <input class="btn btn-primary" id = "now_date" type="date" name="userdate" min="2019-02-01" max="2020-02-01">
+#버튼을 누르면 위 input 값을 전송한다.
+              <input class="btn btn-primary" type="submit" value="검색"></div>
+                           </fieldset>
+
+                        <ol class= "rolldown-list" >
+
+
+#view.py에서 전송된 error변수 값을 읽어 에러를 처리해준다.
+#만약 error변수가 1일경우
+{% if error == 1 %}
+<script type="text/javascript">
+#데이터를 찾을 수 없다는 경고창을 웹페이지에 보여주고.
+  alert('데이터를 찾을 수 없습니다.')
+#원래 페이지로 다시 이동시킨다.
+  window.location.href = '/realtime_Top20_google.html';
+</script>
+
+#만약 error변수가 2일경우
+{% elif error == 2 %}
+<script type="text/javascript">
+#잘못된 접근이라는 경고창을 웹페이지에 보여주고.
+  alert('잘못된 접근입니다.\n')
+#원래 페이지로 다시 이동시킨다.
+  window.location.href = '/realtime_Top20_google.html';
+</script>
+{% endif %}
+
+    <script>
+#views.py에서 전송된 date변수 값을 a에 할당한다.
+        var a = "{{date}}"
+#date변수의 길이를 구해 값이 존재하지 않으면 아래 구문을 실행
+        b = a.length
+    if( b > 5 ) {
+#현재 시간을 구해 today변수에 할당한다.
+        var today = moment().format('{{date}}')
+#웹페이지의 날짜 UI에 현재시간을 출력해준다.
+        document.getElementById('now_date').value = today
+    } 
+#만약 date변수의 값이 존재할 경우 views.py에서 전송된 date변수를 웹페이지의 날짜 UI에 출력해준다.
+else {
+        document.getElementById('now_date').valueAsDate = new Date();
+    }
+    </script>
+
+#views.py에서 전송된 posts변수의 G_Word칼럼 내용을 왼쪽정렬하여 템플릿상에 번호 출력해준다.
+    {% for post in posts %}
+     <li style="text-align:left">{{post.G_Word}}</li>
+    {% endfor %}
+=======
                 
                 <form id="frm" action="action.jsp">
                     <div>
@@ -62,6 +125,7 @@
  	 {% for post in posts %}
      <li style="text-align:left">{{post.G_Word}}</li>
 	 {% endfor %}
+>>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
                         </ol>
 
 
