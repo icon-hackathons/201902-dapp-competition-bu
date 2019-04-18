@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="ExampleApp">
-<<<<<<< HEAD
+
 
 #장고에서 지정한 static 경로를 참조할 수 있도록 한다.
 #모든 참조 경로는 {% --- %} 형태로 지정해야 한다.
-=======
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
+
 {% load staticfiles %}
 <head>
     <meta charset="utf-8">
@@ -41,7 +40,7 @@
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">NAVER 실검기록</h2>
 
-<<<<<<< HEAD
+
 #폼 아래의 input 값들을 get방식을 통해 전달한다.
                 <form id="frm" action="" method="get">
                     <div>
@@ -91,6 +90,7 @@
     {% endfor %}
                         </ol>
 
+    <!-- 누락값 표시 
 #views.py에서 전송된 missing변수를 왼쪽정렬하여 템플릿상에 번호 출력해준다.
                 </br></br></br>
                 <h4 class="section-heading text-uppercase">누락 값</h4>
@@ -99,21 +99,8 @@
                     <li style="text-align:left">{{miss}}</li>
                     {% endfor %}
                 </ol>
-=======
-                <form id="frm" action="" method="get">
-                    <div>
-                        <div class="form-group">
-                            <input class="btn btn-primary" type="date" name="userdate">
-                            <input class="btn btn-primary" type="time" name="usertime">
-                            <input class="btn btn-primary" type="submit" value="검색"></div>
-                        <ol class="rolldown-list">
-                            	 {% for post in posts %}
-     <li style="text-align:left">{{ post }}</li>
-	 {% endfor %}
-                        </ol>
+     -->
 
-
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
 
 
                     </div>
@@ -142,8 +129,6 @@
 
 </body>
 
-<<<<<<< HEAD
+
 </html>
-=======
-</html>
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
+

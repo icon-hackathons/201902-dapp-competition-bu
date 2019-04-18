@@ -1,11 +1,8 @@
  <!DOCTYPE html>
 <html lang="en" ng-app="ExampleApp">
-<<<<<<< HEAD
 
 #장고에서 지정한 static 경로를 참조할 수 있도록 한다.
 #모든 참조 경로는 {% --- %} 형태로 지정해야 한다.
-=======
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
 {% load staticfiles %}
 <head>
     <meta charset="utf-8">
@@ -54,16 +51,12 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">NAVER Today TOP20</h2>
-<<<<<<< HEAD
+
 #폼 아래의 input 값들을 get방식을 통해 전달한다
-=======
-                
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
                 <form id="frm" action="" method="get">
                     <div>
                         <div class="form-group">
                            <fieldset>
-<<<<<<< HEAD
 #date타입의 input 선언, userdate라는 파라미터에 할당, 날짜범위를 2019-02-01~2020-02-01로 제한
          <input class="btn btn-primary" id = "now_date" type="date" name="userdate" min="2019-02-01" max="2020-02-01">
 #버튼을 누르면 위 input 값을 전송한다.
@@ -114,23 +107,6 @@ else {
     {% endfor %}
    </ol>
 
-
-
-=======
-			<input class="btn btn-primary" type="date" name="userdate" value="2018-12-31">
-                            <input class="btn btn-primary" type="submit" value="검색"></div>
-                           </fieldset>
-
-                        <ol class= "rolldown-list" >
-	 {% for post in posts %}
-     <li style="text-align:left">{{post.N_Word}}</li>
-	 {% endfor %}
-
-                        </ol>
-
-
-                    
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
 
                     </div>
 

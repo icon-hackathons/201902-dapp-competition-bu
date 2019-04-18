@@ -4,10 +4,11 @@ from iconsdk.providers.http_provider import HTTPProvider
 from iconsdk.icon_service import IconService
 from iconsdk.builder.call_builder import CallBuilder
 
-<<<<<<< HEAD
 #-------------------------------------Server-------------------------------------------
 # 데이터베이스 테이블 모델 추가
-from .models import Receive_Google_Data, Receive_Naver_Data, Missing_Data
+from .models import Receive_Google_Data, Receive_Naver_Data
+# 만약 누락값 테이블을 사용하고 싶으면 Missing_Data 추가
+
 #클라이언트의 요청에 결과값을 보내주기 위해 render 라이브러리 추가
 from django.shortcuts import render
 #웹페이지에 에러 메세지를 출력해주기 위해 HttpResponse 라이브러리 추가
@@ -19,28 +20,10 @@ from datetime import timedelta
 _score_address = "cxb7ef03fea5fa9b2fe1f00f548d6da7ff2ddfebd5"
 _keystore_address = "hx226e6e4340136836b36977bd76ca83746b8b071c"
 node_uri = "https://ctz.solidwallet.io/api/v3"
-=======
-
-#-------------------------------------Server-------------------------------------------
-from .models import Receive_Google_Data, Receive_Naver_Data
-from django.shortcuts import render
-from django.http import HttpResponse
-from django.db.models import Max
-#from django_pandas.io import read_frame
-#from django_pandas.managers import DataFrameManager
-#from IPython.display import display
-
-
-#-------------------------------------ICON_SCORE_option-------------------------------------------
-_score_address = "cxd8477e0e67273112e64ed81ab5b578bb4f997da6"
-_keystore_address = "hx055ca4808e82f7c0e4eafa884cefcfec15e8387b"
-node_uri = "http://localhost:9000/api/v3"
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
 icon_service = IconService(HTTPProvider(node_uri))
 
 
 #-------------------------------------Naver RT-------------------------------------------
-<<<<<<< HEAD
 #네이버 실시간 검색어 기능 구현
 
 #index라는 메소드를 선언
@@ -84,24 +67,6 @@ def index(request):
             params = {
                 "_Call_date": nowDate,
                 "_Call_time": nowTime,
-=======
-
-def index(request):
-    userdate = request.GET.get("userdate")
-    usertime = request.GET.get("usertime")
-
-    if userdate and usertime :
-        split_Date = userdate.split('-')
-        split_Time = usertime.split(':')
-        input_Date = "".join(split_Date)
-        input_Time = "".join(split_Time)
-
-        if int(input_Date) >= 20190200 and int(input_Date) <= 20200200:
-
-            params = {
-                "_Call_date": "".join(input_Date),
-                "_Call_time": "".join(input_Time),
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
                 "_Call_div": "NAVER"
             }
 
@@ -111,12 +76,11 @@ def index(request):
                 .method("inquiry_RT") \
                 .params(params) \
                 .build()
-<<<<<<< HEAD
+
             response = icon_service.call(Inquiry)
 
 #만약 데이터가 스코어에 존재하지 않는 경우
             if response == "":
-                
                 error = 1
 #urls.py에 의해 들어온 사용자의 요청에 realtime.html템플릿과 에러를 알리는 error 파라메터를 보낸다.
                 return render(request, 'crawling/realtime.html', {'error' : error})
@@ -124,10 +88,16 @@ def index(request):
             else:
 #가져온 데이터를 posts라는 변수에 담는다.
                 posts = json.loads(response)
+
+                '''
 #Missing_Data 테이블에서 누락값을 가져와 missing이라는 변수에 담는다.
                 missing = Missing_Data.objects.filter(key1=input_Date ,Type="N")
 #urls.py에 의해 들어온 사용자의 요청에 realtime.html템플릿을 실시간 검색 순위가 담긴 posts 변수와 날짜 값이 담긴 date, 시간 값이 담긴 time 변수, 누락값이 담긴 missing변수와 함께 보내준다.
                 return render(request, 'crawling/realtime.html', {'posts': posts, 'date': userdate, 'time': usertime, 'missing':missing})
+                '''
+
+#urls.py에 의해 들어온 사용자의 요청에 realtime.html템플릿을 실시간 검색 순위가 담긴 posts 변수와 날짜 값이 담긴 date, 시간 값이 담긴 time 변수와 함께 보내준다.
+                return render(request, 'crawling/realtime.html', {'posts': posts, 'date': userdate, 'time': usertime})
 
 #만약 2019-02-00~2020-02-00의 범위를 초과하였을 경우
         else: 
@@ -186,29 +156,6 @@ def index(request):
 #테스트용 날짜, 시간값 (데이터가 담겨있다.)
             #"_Call_date": "20190308",
             #"_Call_time": "0723",
-=======
-
-            response = icon_service.call(Inquiry)
-            posts = json.loads(response)
-            return render(request, 'crawling/realtime.html', {'posts': posts})
-        else:
-            posts = str(Receive_Naver_Data.objects.last())
-            # return render(request, 'crawling/realtime, {'posts' : posts})
-            return HttpResponse("No data aaa" + userdate)
-
-
-    elif userdate == None or usertime == None:
-        now = datetime.datetime.now()
-        nowDate = now.strftime('%Y%m%d')
-        nowTime = now.strftime('%H%M')
-        # return HttpResponse("No data aaa" + nowDate + nowTime)
-        realTime = int(nowTime) - 1
-        shit = str(realTime)
-        params = {
-            "_Call_date": nowDate,
-            "_Call_time": shit,
-            "_Call_div": "NAVER"
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
         }
 
         Inquiry = CallBuilder() \
@@ -219,7 +166,6 @@ def index(request):
             .build()
 
         response = icon_service.call(Inquiry)
-<<<<<<< HEAD
 
 #현재시간을 5의 배수로 만들어 준다.
 #현재시간이 5의 배수면 아직 데이터가 업데이트 되지 않을 경우를 방지해 현재시간 5분전에 데이터를 구한다.
@@ -251,22 +197,6 @@ def index(request):
         elif localrealTime <= 959 and localrealTime >= 60:
             localrealTime = "0" + str(localrealTime)
 
-#UTC시간으로 15:00을 넘으면 날짜에서 하루를 추가한다.            
-#        if realTime >= 1500:
-#           nowDate = int(nowDate) + 1
-#UTC타임존을 asia/seoul타임존으로 변경하기 위해 9시간을 추가해준다.
-#        realTime = (int(realTime) + 900) % 2400
-#00시09분 이하의 경우에는 정수형으로 치환할 경우 한자리로 변경되어버리기 때문에 000을 추가한다.
-#        if realTime <= 9:
-#            realTime = "000" + str(realTime)
-#09시59분 이하의 경우에는 정수형으로 치환할 경우 800으로 변경되어버리기 때문에 00을 추가한다.
-#        elif realTime <= 59 and realTime >= 10:
-#            realTime = "00" + str(realTime)
-#09시59분 이하의 경우에는 정수형으로 치환할 경우 세자리로 변경되어버리기 때문에 0을 추가한다.
-#        elif realTime <= 959 and realTime >= 60:
-#            realTime = "0" + str(realTime)
-
-
 #만약 스코어의 최근시간에 값이 존재하지 않을 경우
         if response == "":
 #웹화면에 검색된 날짜,시간과 함께 최근 값이 존재하지 않다는 메세지를 출력해준다.
@@ -291,11 +221,14 @@ def index(request):
 #위 두개의 변수를 취합해 XX:XX형태로 만든다.
         convert_time = temp1 + ":" + temp2
 
+        '''
         missing = Missing_Data.objects.filter(key1=localnowDate,Type="N")
-
 #urls.py에 의해 들어온 사용자의 요청에 realtime.html템플릿을 실시간 검색 순위가 담긴 posts 변수와 알맞은 형태로 만든 날짜, 시간 변수, 누락값 변수와 함께 보내준다.
         return render(request, 'crawling/realtime.html', {'posts' : posts, 'date': convert_date,'time':convert_time,'missing':missing})
+        '''
 
+#urls.py에 의해 들어온 사용자의 요청에 realtime.html템플릿을 실시간 검색 순위가 담긴 posts 변수와 알맞은 형태로 만든 날짜, 시간 변수와 함께 보내준다.
+        return render(request, 'crawling/realtime.html', {'posts' : posts, 'date': convert_date,'time':convert_time})
 
 #-------------------------------------Google RT-------------------------------------------
 #구글 실시간 검색어 기능 구현
@@ -340,31 +273,6 @@ def index2(request):
             params = {
                 "_Call_date": nowDate,
                 "_Call_time": nowTime,
-=======
-        posts = json.loads(response)
-        # userdate = Receive_Naver_Data.objects.last().date - recent DB data call
-        # posts = list(Post.objects.filter(date=userdate))
-        return render(request, 'crawling/realtime.html', {'posts': posts})
-
-
-#-------------------------------------Google RT-------------------------------------------
-
-def index2(request):
-    userdate = request.GET.get("userdate")
-    usertime = request.GET.get("usertime")
-
-    if userdate and usertime :
-        split_Date = userdate.split('-')
-        split_Time = usertime.split(':')
-        input_Date = "".join(split_Date)
-        input_Time = "".join(split_Time)
-
-        if int(input_Date) >= 20190200 and int(input_Date) <= 20200200:
-
-            params = {
-                "_Call_date": "".join(input_Date),
-                "_Call_time": "".join(input_Time),
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
                 "_Call_div": "GOOGLE"
             }
 
@@ -374,7 +282,6 @@ def index2(request):
                 .method("inquiry_RT") \
                 .params(params) \
                 .build()
-<<<<<<< HEAD
             response = icon_service.call(Inquiry)
 
 #만약 데이터가 스코어에 존재하지 않는 경우
@@ -386,10 +293,16 @@ def index2(request):
             else:
 #가져온 데이터를 posts라는 변수에 담는다.
                 posts = json.loads(response)
+
+                '''
 #Missing_Data 테이블에서 누락값을 가져와 missing이라는 변수에 담는다.
                 missing = Missing_Data.objects.filter(key1=input_Date ,Type="N")
 #urls.py에 의해 들어온 사용자의 요청에 realtime_google.html템플릿을 실시간 검색 순위가 담긴 posts 변수와 날짜 값이 담긴 date, 시간 값이 담긴 time 변수, 누락값이 담긴 missing변수와 함께 보내준다.
                 return render(request, 'crawling/realtime_google.html', {'posts': posts, 'date': userdate, 'time': usertime,'missing':missing})
+                '''
+
+#urls.py에 의해 들어온 사용자의 요청에 realtime_google.html템플릿을 실시간 검색 순위가 담긴 posts 변수와 날짜 값이 담긴 date, 시간 값이 담긴 time 변수와 함께 보내준다.
+                return render(request, 'crawling/realtime_google.html', {'posts': posts, 'date': userdate, 'time': usertime})
 
 #만약 2019-02-00~2020-02-00의 범위를 초과하였을 경우
         else: 
@@ -443,29 +356,6 @@ def index2(request):
 #테스트용 날짜, 시간값 (데이터가 담겨있다.)
             #"_Call_date": "20190227",
             #"_Call_time": "0853",
-=======
-
-            response = icon_service.call(Inquiry)
-            posts = json.loads(response)
-            return render(request, 'crawling/realtime_google.html', {'posts': posts})
-        else:
-            posts = str(Receive_Google_Data.objects.last())
-            # return render(request, 'crawling/realtime, {'posts' : posts})
-            return HttpResponse("No data aaa" + userdate)
-
-
-    elif userdate == None or usertime == None:
-        now = datetime.datetime.now()
-        nowDate = now.strftime('%Y%m%d')
-        nowTime = now.strftime('%H%M')
-        # return HttpResponse("No data aaa" + nowDate + nowTime)
-        realTime = int(nowTime) - 1
-        shit = str(realTime)
-        params = {
-            "_Call_date": nowDate,
-            "_Call_time": shit,
-            "_Call_div": "GOOGLE"
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
         }
 
         Inquiry = CallBuilder() \
@@ -476,7 +366,6 @@ def index2(request):
             .build()
 
         response = icon_service.call(Inquiry)
-<<<<<<< HEAD
 
 #현재시간을 5의 배수로 만들어 준다.
 #현재시간이 5의 배수면 아직 데이터가 업데이트 되지 않을 경우를 방지해 현재시간 5분전에 데이터를 구한다.
@@ -531,11 +420,14 @@ def index2(request):
 #위 두개의 변수를 취합해 XX:XX형태로 만든다.
         convert_time = temp1 + ":" + temp2
 
+        '''
         missing = Missing_Data.objects.filter(key1=localnowDate,Type="G")
-
 #urls.py에 의해 들어온 사용자의 요청에 realtime_google.html템플릿을 실시간 검색 순위가 담긴 posts 변수와 알맞은 형태로 만든 날짜, 시간 변수, 누락값 변수와 함께 보내준다.
         return render(request, 'crawling/realtime_google.html', {'posts' : posts, 'date': convert_date,'time':convert_time,'missing':missing})
+        '''
 
+#urls.py에 의해 들어온 사용자의 요청에 realtime_google.html템플릿을 실시간 검색 순위가 담긴 posts 변수와 알맞은 형태로 만든 날짜, 시간 변수와 함께 보내준다.
+        return render(request, 'crawling/realtime_google.html', {'posts' : posts, 'date': convert_date,'time':convert_time})
 
 #-------------------------------------Naver Top20-------------------------------------------
 #네이버 일일 TOP20 기능 구현
@@ -684,49 +576,6 @@ def top2(request):
 #-------------------------------------Main Template-------------------------------------------
 
 #urls.py에 의해 들어온 사용자의 요청에 index.html 템플릿을 보내준다.
-=======
-        posts = json.loads(response)
-        # userdate = Receive_Naver_Data.objects.last().date - recent DB data call
-        # posts = list(Post.objects.filter(date=userdate))
-        return render(request, 'crawling/realtime_google.html', {'posts': posts})
-
-
-def top(request):
-    userdate = request.GET.get("userdate")
-    if userdate == None:
-        userdate = Receive_Naver_Data.objects.last().key1
-        temp_posts = list(Receive_Naver_Data.objects.filter(key1=userdate).order_by('-N_Rating'))
-        posts = temp_posts[0:20]
-
-    elif int(userdate) >= 20190200 and int(userdate) <= 20200200:
-        temp_posts = list(Receive_Naver_Data.objects.filter(key1=userdate).order_by('-N_Rating'))
-        posts = temp_posts[0:20]
-
-    else:
-        return render(request, 'crawling/realtime_Top20.html')
-
-    return render(request, 'crawling/realtime_Top20.html', {'posts': posts})
-
-
-def top2(request):
-
-    userdate = request.GET.get("userdate")
-    if userdate == None:
-        userdate = Receive_Google_Data.objects.last().key1
-        temp_posts = list(Receive_Google_Data.objects.filter(key1=userdate).order_by('-G_Rating'))
-        posts = temp_posts[0:20]
-
-    elif int(userdate) >= 20190200 and int(userdate) <= 20200200:
-        temp_posts = list(Receive_Google_Data.objects.filter(key1=userdate).order_by('-G_Rating'))
-        posts = temp_posts[0:20]
-
-    else:
-        return render(request, 'crawling/realtime_Top20_google.html')
-
-    return render(request, 'crawling/realtime_Top20_google.html', {'posts': posts})
-
-
->>>>>>> 86dc0cf045a62ff479b3219fa666841a66152774
 def input(request):
     return render(request, 'crawling/index.html')
 
